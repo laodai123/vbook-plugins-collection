@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "czbooks - repo Đường đen",
+    "author": "hajljnopera",
+    "version": 3,
+    "source": "https://czbooks.net",
+    "regexp": "czbooks\\.net/n/[^/]+$",
+    "description": "Đọc truyện trên trang https://czbooks.net",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "tag": "nsfw",
+    "encrypt": true
+  },
+  "script": {
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "home": "home.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "gen": "gen.js"
+  }
+}

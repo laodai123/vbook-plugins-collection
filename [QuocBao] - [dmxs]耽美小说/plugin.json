@@ -1,0 +1,32 @@
+{
+    "metadata": {
+        "name": "[dmxs]耽美小说",
+        "author": "QuocBao",
+        "version": 2,
+        "source": "https://www.dmxs.org/",
+        "regexp": "https?:\\/\\/(?:www\\.)?dmxs\\.org\\/(?:book|gdjk|cycs|xhly|wyjj|tlxy|BLTR|GLBH|wucp|view)\\/[^\\s]+",
+        "description": "Đọc truyện trên dmxs.org.",
+        "locale": "zh_CN",
+        "language": "javascript",
+        "type": "chinese_novel",
+        "encrypt": true
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "search": "search.js",
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    },
+    "config": {
+        "thread_num": 1,
+        "delay": 700,
+        "dmxsFixBreaks": {
+            "title": "Fix xuống dòng",
+            "mode": "input",
+            "format": "text",
+            "default": "on"
+        }
+    }
+}

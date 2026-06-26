@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "LN Kuro",
+    "author": "Meo",
+    "version": 16,
+    "source": "https://lnkuro.top",
+    "regexp": "lnkuro\\.top\\/.+",
+    "description": "LN Kuro - Đọc Light Novel Hàn Quốc dịch tiếng Việt",
+    "locale": "vi_VN",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "homecontent": "homecontent.js",
+    "genre": "genre.js",
+    "genrecontent": "genrecontent.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "suggest": "suggest.js"
+  }
+}

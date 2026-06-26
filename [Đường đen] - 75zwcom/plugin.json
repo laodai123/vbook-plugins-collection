@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "75zwcom",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://m.75zwcom.com",
+    "regexp": "(m\\.)?75zwcom\\.com\\/(xiaoshuo\\d+\\.html|\\d+\\/?|\\d+\\/\\d+(?:_\\d+)?\\.html)",
+    "description": "Đọc sách trên trang 75zwcom",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "source": "https:\/\/www.novelnext.me",
+        "encrypt": false,
+        "description": "Read novels on NovelNext",
+        "type": "novel",
+        "version": 1,
+        "locale": "en_US",
+        "author": "ivanzzz",
+        "name": "NovelNext",
+        "regexp": "(www\\.)?novelnext\\.me\/[^\/]+\/?$",
+        "language": "javascript"
+    },
+    "script": {
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "genre": "genre.js",
+        "home": "home.js",
+        "search": "search.js",
+        "page": "page.js",
+        "chap": "chap.js"
+    }
+}

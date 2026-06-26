@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "name": "Kho Truyện Chữ",
+    "author": "B",
+    "version": 7,
+    "source": "https://khotruyenchu.space/",
+    "regexp": "khotruyenchu\\.(.*?)/truyen/.*",
+    "description": "Đọc truyện trên khotruyenchu.space",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "page": "page.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "CONFIG_URL": {
+      "title": "Tên miền",
+      "mode": "input",
+      "format": "text",
+      "default": "khotruyenchu.space"
+    }
+  }
+}

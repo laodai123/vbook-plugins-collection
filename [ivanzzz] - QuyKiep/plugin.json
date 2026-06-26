@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "QuyKiep",
+    "author": "ivanzzz",
+    "version": 3,
+    "source": "https://quykiep.com",
+    "regexp": "https://quykiep.com/(.*?)$",
+    "description": "Đọc truyện trên QuyKiep.com",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript",
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

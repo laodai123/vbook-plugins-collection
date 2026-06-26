@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "name": "Tiệm Truyện Chữ",
+        "author": "Will Sun",
+        "version": 12,
+        "source": "https:\/\/tiemtruyenchu.cloud",
+        "regexp": "https?:\/\/(?:www\\.)?tiemtruyenchu\\.cloud\/.*",
+        "description": "Đọc truyện trên app Tiệm Truyện Chữ, liên hệ Will Sun để nhận extension này. Không chia sẻ công khai được vì sợ thiên kiếp :))",
+        "locale": "vi_VN",
+        "type": "novel",
+        "language": "javascript",
+        "encrypt": true
+    },
+    "script": {
+        "detail": "detail.js",
+        "toc": "toc.js",
+        "chap": "chap.js",
+        "search": "search.js",
+        "home": "home.js",
+        "genre": "genre.js"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "La Cà Truyện",
+    "author": "ivanzzz",
+    "version": 5,
+    "source": "https://lacatruyen.casa",
+    "regexp": "(www\\.)?lacatruyen\\.(club|xyz|me|net|pro|com|bar|casa)/(?:story|store/story)/[0-9a-zA-Z-]+(?:[/?#].*)?$",
+    "description": "Đọc truyện tại La Cà Truyện",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

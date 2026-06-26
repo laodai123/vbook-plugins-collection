@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "sweetastes",
+    "author": "Đường đen",
+    "version": 3,
+    "source": "https://baby0world.com",
+    "regexp": "(?:www\\.)?baby0world\\.com\\/book\\/(\\d+)",
+    "description": "Đọc truyện trên trang baby0world, chỉ đọc chương free",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

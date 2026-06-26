@@ -1,0 +1,23 @@
+{
+    "metadata":  {
+                     "name":  "TruyenYY",
+                     "author":  "madokalb112",
+                     "version":  2,
+                     "source":  "https://truyenyy.co",
+                     "regexp":  "(www\\.)?truyenyy\\.co/truyen/[^/?#]+/?(?:[?#].*)?$",
+                     "description":  "Doc truyen chu tren TruyenYY",
+                     "locale":  "vi_VN",
+                     "language":  "javascript",
+                     "type":  "novel",
+                     "encrypt":  true
+                 },
+    "script":  {
+                   "home":  "home.js",
+                   "genre":  "genre.js",
+                   "detail":  "detail.js",
+                   "search":  "search.js",
+                   "page":  "page.js",
+                   "toc":  "toc.js",
+                   "chap":  "chap.js"
+               }
+}

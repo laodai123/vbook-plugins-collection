@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Wattpad",
+    "author": "QuocBao",
+    "version": 2,
+    "source": "https://www.wattpad.com/",
+    "regexp": "https://www.wattpad.com/story/[^/]+/?$",
+    "description": "Đọc truyện trên Wattpad. ",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "gen": "gen.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

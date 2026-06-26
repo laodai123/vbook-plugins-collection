@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "name": "[APP] QQ阅读",
+        "author": "QuocBao",
+        "version": 3,
+        "source": "book.qq.com",
+        "regexp": "(https?://)?(book\\.qq\\.com|ubook\\.reader\\.qq\\.com)/(book-detail|book-read)/.*?",
+        "description": "Đọc QQ阅读. Bản public đọc chương miễn phí; liên hệ để nhận bản VIP. ",
+        "locale": "zh_CN",
+        "language": "javascript",
+        "type": "chinese_novel",
+        "encrypt": true
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "detail": "detail.js",
+        "search": "search.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    }
+}

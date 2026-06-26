@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "久久小说网",
+    "author": "Đường đen",
+    "version": 6,
+    "source": "https://m.ijjjxsxzw.com",
+    "regexp": "https?:\\/\\/(www\\.|m\\.)?ijjjxsxzw\\.com\\/txt\\/[^/]+\\.html$",
+    "description": "Đọc truyện trên trang 久久小说网 (ijjjxsxzw.com)",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

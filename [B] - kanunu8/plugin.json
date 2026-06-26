@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "kanunu8",
+    "author": "B",
+    "version": 4,
+    "source": "https://www.kanunu8.com",
+    "regexp": "https://(www\\.)?kanunu8\\.com(/(book\\d*|101|tuili|wuxia)/[^/]+(/(index\\.html|\\d+\\.html)?)?|/files/.*?\\d+\\.html|/zt/zt_\\d+\\.html)",
+    "description": "Đọc truyện trên trang https://www.kanunu8.com",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

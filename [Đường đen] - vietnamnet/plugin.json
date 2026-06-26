@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "vietnamnet",
+    "author": "Đường đen",
+    "version": 3,
+    "source": "https://vietnamnet.vn",
+    "regexp": "vietnamnet.vn/(.*?)[.]html",
+    "description": "Đọc vietnamnet",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

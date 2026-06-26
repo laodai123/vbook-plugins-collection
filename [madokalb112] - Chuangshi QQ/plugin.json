@@ -1,0 +1,22 @@
+{
+    "metadata":  {
+                     "name":  "Chuangshi QQ",
+                     "author":  "madokalb112",
+                     "version":  2,
+                     "source":  "https://m.chuangshi.qq.com",
+                     "regexp":  "m\\.chuangshi\\.qq\\.com(?:/(?:detail/\\d+|chapter/\\d+|read/\\d+/\\d+|tab/\\d+|rank/\\d+_\\d+|channel/[a-z_]+|search(?:/[^/?#]+)?))?/?(?:[?#].*)?$",
+                     "description":  "Doc truyen chu tren Chuangshi QQ",
+                     "locale":  "zh_CN",
+                     "language":  "javascript",
+                     "type":  "chinese_novel",
+                     "encrypt":  true
+                 },
+    "script":  {
+                   "home":  "home.js",
+                   "genre":  "genre.js",
+                   "detail":  "detail.js",
+                   "search":  "search.js",
+                   "toc":  "toc.js",
+                   "chap":  "chap.js"
+               }
+}

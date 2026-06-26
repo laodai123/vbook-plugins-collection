@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "biqugess",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "http://www.biqugess.co",
+    "regexp": "(www\\\\.)?biqugess\\\\.co/\\\\d+_\\\\d+/?$",
+    "description": "Đọc truyện trên trang biqugess",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "gen": "gen.js",
+    "detail": "detail.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

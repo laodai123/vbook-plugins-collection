@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "Mê Đọc Truyện",
+    "author": "ivanzzz",
+    "version": 3,
+    "source": "https://medoctruyen.vn/",
+    "regexp": "(www\\.)?medoctruyen\\.vn/(?!browse|bookshelf|news|contact|about|team|faq|terms|privacy|report|login|register)[^/]+(?:/chuong-\\d+)?/?$",
+    "description": "Đọc truyện trên Mê Đọc Truyện",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "gen": "gen.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

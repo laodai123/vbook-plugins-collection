@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "FanMTL",
+    "author": "ivanzzz",
+    "version": 1,
+    "source": "https://www.fanmtl.com",
+    "regexp": "(www\\.)?fanmtl\\.com",
+    "description": "Read Fan-Fiction & Web Novels on FanMTL",
+    "locale": "en_US",
+    "type": "novel",
+    "language": "javascript",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "gen": "gen.js"
+  }
+}

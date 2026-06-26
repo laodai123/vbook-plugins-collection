@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Ổ của Dưa",
+    "author": "Đường đen",
+    "version": 1,
+    "source": "https://www.ocuadua.com",
+    "regexp": "^https?://(?:www\\.)?ocuadua\\.com/story/[A-Za-z0-9-]+/?$",
+    "description": "Đọc truyện trên trang Ổ của Dưa",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

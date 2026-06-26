@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "name": "TruyenDich.AI",
+        "author": "ivanzzz",
+        "version": 1,
+        "source": "https:\/\/truyendich.ai",
+        "regexp": "(https:\/\/)?(www\\.)?truyendich\\.ai\/doc-truyen\/(?:ai\/|cv\/)?[0-9A-Za-z-]+(?:\/chuong-[0-9]+)?(?:[\/?#].*)?$",
+        "description": "Doc truyen tai TruyenDich.AI",
+        "locale": "vi_VN",
+        "language": "javascript",
+        "type": "novel",
+        "encrypt": false
+    },
+    "script": {
+        "home": "home.js",
+        "genre": "genre.js",
+        "detail": "detail.js",
+        "search": "search.js",
+        "toc": "toc.js",
+        "chap": "chap.js"
+    }
+}

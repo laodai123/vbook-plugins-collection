@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "言情小说阁 (APP)",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "http://www.xianqihaotianmi.org",
+    "regexp": "(www.)?api.(beiniai|basusan|daislou).com/novel/[A-za-z0-9]+/?",
+    "description": "Mô tả",
+    "locale": "zh-CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

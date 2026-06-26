@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Kho Truyện Chữ",
+    "author": "ivanzzz",
+    "version": 2,
+    "source": "https://khotruyenchu.fun/",
+    "regexp": "(www\\.)?khotruyenchu\\.fun/.*",
+    "description": "Đọc truyện trên Kho Truyện Chữ",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

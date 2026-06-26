@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "[Review] yousuu 💬",
+    "author": "Moleys + BQY",
+    "version": 1,
+    "source": "https://www.yousuu.com",
+    "regexp": "(www.|api.)?yousuu.com/book/\\d+/?$",
+    "description": "",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  }
+}
