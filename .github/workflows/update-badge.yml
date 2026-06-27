@@ -1,0 +1,85 @@
+name: Update Plugin Count Badge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/plugin.json'
+  schedule:
+    - cron: '0 0 * * 1'  # Weekly on Monday at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Count plugin.json files
+        id: count
+        run: |
+          COUNT=$(find . -name "plugin.json" -type f | wc -l)
+          echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+      - name: Check cache for previous count
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: plugin-count.txt
+          key: plugin-count-${{ steps.count.outputs.count }}
+          restore-keys: |
+            plugin-count-
+
+      - name: Compare count with cached value
+        id: compare
+        run: |
+          if [ -f plugin-count.txt ]; then
+            CACHED=$(cat plugin-count.txt)
+            CURRENT=${{ steps.count.outputs.count }}
+            if [ "$CACHED" = "$CURRENT" ]; then
+              echo "changed=false" >> $GITHUB_OUTPUT
+              echo "Plugin count unchanged ($CURRENT), skipping badge update"
+            else
+              echo "changed=true" >> $GITHUB_OUTPUT
+              echo "Plugin count changed: $CACHED -> $CURRENT"
+            fi
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "No cached count found, first run"
+          fi
+
+      - name: Update README.md badge
+        if: steps.compare.outputs.changed == 'true'
+        run: |
+          COUNT=${{ steps.count.outputs.count }}
+          BADGE="![Plugins](https://img.shields.io/badge/plugins-${COUNT}-blue?style=flat-square)"
+          
+          # Check if badge line exists
+          if grep -q '^\[!\[Plugins\]' README.md; then
+            # Update existing badge line
+            sed -i "s|^\[!\[Plugins\].*|[![Plugins](${BADGE})|" README.md
+          else
+            # Add badge line after the first badge group (after line with GitHub badges)
+            # Find the line with the last badge in the first group and insert after it
+            sed -i "/^\[!\[GitHub Stars\]/a [![Plugins](${BADGE})" README.md
+          fi
+
+      - name: Save count to cache file
+        if: steps.compare.outputs.changed == 'true'
+        run: |
+          echo "${{ steps.count.outputs.count }}" > plugin-count.txt
+
+      - name: Commit and push changes
+        if: steps.compare.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md plugin-count.txt
+          git commit -m "chore: update plugin count badge to ${{ steps.count.outputs.count }}"
+          git push

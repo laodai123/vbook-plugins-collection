@@ -8,12 +8,23 @@
     "owner_id": null,
     "version": 1,
     "generatedAt": "2026-06-24T20:09:55.022Z",
-    "totalItems": 398,
+    "totalItems": 399,
     "usage": 7,
     "last_accessed_at": "2026-06-24T18:47:01.733+00:00",
     "is_temporary": false
   },
   "data": [
+    {
+      "name": "VBook All-in-One",
+      "author": "Laodai123",
+      "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/%5BLaodai123%5D%20-%20VBook%20All-in-One/plugin.json",
+      "version": 1,
+      "source": "https://github.com/Laodai123/vbook-plugins-collection/releases/latest",
+      "icon": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/%5BLaodai123%5D%20-%20VBook%20All-in-One/icon.png",
+      "description": "TruyệnFull + MTC + WikiDich + TruyệnTR hợp nhất trong 1 plugin. Tự động chuyển đổi giữa các nguồn.",
+      "type": "novel",
+      "locale": "vi_VN"
+    },
     {
       "name": "Bạch Ngọc Sách",
       "author": "vBook",

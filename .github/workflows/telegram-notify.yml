@@ -1,0 +1,63 @@
+name: Telegram Notify on Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  telegram-notify:
+    name: Send Telegram Notification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if secrets are configured
+        id: check-secrets
+        run: |
+          if [ -z "${{ secrets.TELEGRAM_BOT_TOKEN }}" ] || [ -z "${{ secrets.TELEGRAM_CHAT_ID }}" ]; then
+            echo "Telegram secrets not configured, skipping notification"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Telegram Notification
+        if: steps.check-secrets.outputs.skip == 'false'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          RELEASE_NAME="${{ github.event.release.name }}"
+          RELEASE_TAG="${{ github.event.release.tag_name }}"
+          RELEASE_URL="${{ github.event.release.html_url }}"
+          RELEASE_BODY="${{ github.event.release.body }}"
+          
+          # Truncate body to avoid Telegram message limits
+          if [ ${#RELEASE_BODY} -gt 3000 ]; then
+            RELEASE_BODY="${RELEASE_BODY:0:3000}..."
+          fi
+          
+          # Escape special characters for Markdown
+          RELEASE_NAME_ESCAPED=$(echo "$RELEASE_NAME" | sed 's/[\\*_`]/\\&/g')
+          RELEASE_TAG_ESCAPED=$(echo "$RELEASE_TAG" | sed 's/[\\*_`]/\\&/g')
+          RELEASE_BODY_ESCAPED=$(echo "$RELEASE_BODY" | sed 's/[\\*_`]/\\&/g')
+          
+          # Build message
+          MESSAGE="🎉 *New Release Published!*\n\n"
+          MESSAGE="${MESSAGE}📦 *Release:* [$RELEASE_NAME_ESCAPED]($RELEASE_URL)\n"
+          MESSAGE="${MESSAGE}🏷 *Tag:* \`$RELEASE_TAG_ESCAPED\`\n"
+          MESSAGE="${MESSAGE}📝 *Description:*\n$RELEASE_BODY_ESCAPED\n\n"
+          MESSAGE="${MESSAGE}🔗 [View Release]($RELEASE_URL)"
+          
+          # Send via Telegram Bot API
+          curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+            -d chat_id="$TELEGRAM_CHAT_ID" \
+            -d text="$MESSAGE" \
+            -d parse_mode="Markdown" \
+            -d disable_web_page_preview="true" \
+            > /dev/null
+          
+          if [ $? -eq 0 ]; then
+            echo "✅ Telegram notification sent successfully"
+          else
+            echo "❌ Failed to send Telegram notification"
+            exit 1
+          fi

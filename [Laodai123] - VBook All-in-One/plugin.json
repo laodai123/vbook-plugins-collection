@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "VBook All-in-One",
+    "author": "Laodai123",
+    "version": 1,
+    "source": "https://github.com/Laodai123/vbook-plugins-collection/releases/latest",
+    "description": "🔰 TruyệnFull + MTC + WikiDich + TruyệnTR hợp nhất trong 1 plugin. Tự động chuyển đổi giữa các nguồn khi 1 nguồn lỗi.",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript",
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "genre": "genre.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
