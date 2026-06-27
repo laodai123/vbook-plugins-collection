@@ -1,0 +1,91 @@
+name: 🚀 Yêu cầu tính năng / Feature Request
+description: Gửi yêu cầu plugin mới, cải tiến plugin hiện có hoặc tính năng mới cho repo
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Loại yêu cầu
+      description: Bạn muốn yêu cầu loại gì?
+      multiple: false
+      options:
+        - "Plugin mới (New plugin)"
+        - "Cải tiến plugin (Improve existing plugin)"
+        - "Tính năng mới cho repo (New repo feature)"
+    validations:
+      required: true
+
+  - type: input
+    id: site-name
+    attributes:
+      label: Tên trang web cần thêm plugin
+      description: Nhập tên trang web bạn muốn có plugin đọc truyện (chỉ áp dụng nếu chọn "Plugin mới")
+      placeholder: "VD: TruyenFull, NetTruyen, ..."
+    validations:
+      required: false
+
+  - type: input
+    id: site-url
+    attributes:
+      label: Link trang web
+      description: Cung cấp URL đầy đủ của trang web (nếu có)
+      placeholder: "https://truyenfull.vn"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Mô tả tính năng mong muốn
+      description: Mô tả chi tiết tính năng bạn muốn thêm hoặc cải tiến. Hãy càng cụ thể càng tốt.
+      placeholder: |-
+        VD: Plugin đọc truyện từ trang web X với các chức năng:
+        - Lấy danh sách chương
+        - Đọc từng chương
+        - Tìm kiếm truyện
+        - Lưu lịch sử đọc
+      value: |
+        ## Mô tả
+
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Tại sao cần tính năng này?
+      description: Giải thích lý do bạn cần tính năng này, lợi ích mang lại cho người dùng, v.v.
+      placeholder: |-
+        VD: Trang web X có kho truyện phong phú, giao diện sạch sẽ, phù hợp để đọc trên VBook.
+      value: |
+        ## Lý do
+
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Ưu tiên
+      description: Mức độ ưu tiên của yêu cầu này
+      multiple: false
+      options:
+        - "Cao (High)"
+        - "Trung bình (Medium)"
+        - "Thấp (Low)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Xác nhận
+      description: Vui lòng xác nhận các điều sau trước khi gửi
+      options:
+        - label: Tôi đã kiểm tra và không có issue nào trùng lặp với yêu cầu này
+          required: true
+        - label: Tôi đã cập nhật plugin collection lên phiên bản mới nhất
+          required: false
+        - label: Tôi sẵn sàng cung cấp thêm thông tin nếu được yêu cầu
+          required: true

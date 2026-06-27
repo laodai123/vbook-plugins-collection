@@ -1,0 +1,79 @@
+name: "🐛 Báo cáo lỗi Plugin (Bug Report)"
+description: "Báo cáo lỗi cho một plugin cụ thể trong VBook Plugins Collection"
+title: "[Bug] <tên plugin> - <mô tả ngắn gọn lỗi>"
+labels: ["bug", "plugin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đã báo cáo lỗi! Vui lòng điền đầy đủ thông tin bên dưới để chúng tôi có thể tái hiện và khắc phục lỗi nhanh chóng.
+
+  - type: input
+    id: plugin_name
+    attributes:
+      label: "📦 Tên plugin bị lỗi"
+      description: "Nhập chính xác tên plugin (như trong plugin.json hoặc tên hiển thị trong VBook)"
+      placeholder: "Ví dụ: 笔趣阁-abcbiquge, Ổ của Dưa, ..."
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: "🔗 Link trang nguồn (URL)"
+      description: "URL của trang web truyện (site) mà plugin này hỗ trợ"
+      placeholder: "https://example.com"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: "📝 Mô tả lỗi"
+      description: "Mô tả chi tiết lỗi bạn gặp phải. Lỗi gì xảy ra? Kết quả mong đợi là gì?"
+      placeholder: |
+        Ví dụ: Khi tìm kiếm "Đấu phá thương khung", plugin trả về danh sách rỗng mặc dù trang web có kết quả.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "🔄 Các bước tái hiện"
+      description: "Liệt kê từng bước để tái hiện lỗi (bắt buộc)"
+      placeholder: |
+        1. Mở VBook
+        2. Cài đặt plugin [tên plugin]
+        3. Tìm kiếm từ khóa "xyz"
+        4. Nhấn vào kết quả đầu tiên
+        5. Quan sát lỗi: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Ảnh chụp màn hình (tùy chọn)"
+      description: "Drag & drop ảnh chụp màn hình lỗi tại đây, hoặc dán link ảnh"
+      placeholder: "Kéo thả ảnh vào đây..."
+
+  - type: input
+    id: vbook_version
+    attributes:
+      label: "📱 Phiên bản VBook"
+      description: "Phiên bản ứng dụng VBook bạn đang dùng (Có thể tìm thấy tại Cài đặt → Giới thiệu)"
+      placeholder: "Ví dụ: 3.5.2"
+
+  - type: input
+    id: android_version
+    attributes:
+      label: "🤖 Phiên bản Android"
+      description: "Phiên bản Android của thiết bị (Có thể tìm thấy tại Cài đặt → Giới thiệu điện thoại)"
+      placeholder: "Ví dụ: 14, 13, 12L..."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Lưu ý:** Nếu lỗi liên quan đến nhiều plugin, vui lòng tạo issue riêng cho từng plugin.
+        Cảm ơn bạn đã đóng góp cải thiện VBook Plugins Collection!

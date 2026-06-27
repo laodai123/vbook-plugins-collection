@@ -1,0 +1,40 @@
+# This is a basic workflow to help you get started with Actions
+
+name: 🧪 Kiểm tra Plugin
+
+on:
+  push:
+    paths:
+      - '**/plugin.json'
+  pull_request:
+    paths:
+      - '**/plugin.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 🔍 Kiểm tra cấu trúc plugin JSON
+        run: |
+          echo "=== Kiểm tra plugin.json trong tất cả thư mục ==="
+          find . -name "plugin.json" -not -path "./.git/*" | while read -r f; do
+            if ! python3 -c "import json; json.load(open('$f'))" 2>/dev/null; then
+              echo "❌ LỖI JSON: $f"
+              exit 1
+            fi
+            echo "✅ OK: $f"
+          done
+          echo "=== Tất cả plugin.json hợp lệ ==="
+
+      - name: 📊 Thống kê plugin
+        run: |
+          TOTAL=$(find . -name "plugin.json" -not -path "./.git/*" | wc -l)
+          echo "📊 Tổng số plugin: $TOTAL"
+          echo "TOTAL=$TOTAL" >> $GITHUB_ENV
+
+      - name: 📝 Cập nhật badge
+        run: |
+          echo "Plugin count: ${{ env.TOTAL || '?' }}"
