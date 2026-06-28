@@ -1,125 +1,195 @@
 // VBook Plugin — Truyện VN All-in-One (Detail)
-// Hỗ trợ: LNMTL, FoxTruyen2, Qidian, Fanqie, 69shu, Ptwxz, Qimao
-(function() {
-  var url = BookUrl || '';
-  var site = '';
+// Format: VBook Legado
+// Hỗ trợ: LNMTL, FoxTruyen2, Qidian, Fanqie, 69shu, Ptwxz, Qimao, STV Proxy
 
-  if (/lnmtl\.com/i.test(url)) site = 'lnmtl';
-  else if (/foxtruyen2\.com|truyenggg\.com/i.test(url)) site = 'foxtruyen';
-  else if (/qidian\.(com|cn)/i.test(url)) site = 'qidian';
-  else if (/fanqie|fanqienovel/i.test(url)) site = 'fanqie';
-  else if (/69shu|69shuba/i.test(url)) site = '69shu';
-  else if (/ptwxz|piaotia|piaotian/i.test(url)) site = 'ptwxz';
-  else if (/qimao|7mao/i.test(url)) site = 'qimao';
+var STVHOST = "http://14.225.254.182";
 
-  // For Qidian/Fanqie/69shu/Ptwxz/Qimao, URL might be STV proxy
-  var isStvProxy = /14\.225\.254\.182/i.test(url);
+function detectSite(url) {
+  if (/lnmtl\.com/i.test(url)) return 'lnmtl';
+  if (/foxtruyen2\.com|truyenggg\.com/i.test(url)) return 'foxtruyen';
+  if (/sangtacviet|14\.225\.254\.182/i.test(url)) return 'stv';
+  if (/qidian\.(com|cn)/i.test(url)) return 'qidian';
+  if (/fanqie|fanqienovel/i.test(url)) return 'fanqie';
+  if (/69shu|69shuba/i.test(url)) return '69shu';
+  if (/ptwxz|piaotia|piaotian/i.test(url)) return 'ptwxz';
+  if (/qimao|7mao/i.test(url)) return 'qimao';
+  return 'unknown';
+}
 
-  fetch(url)
-    .then(function(r) { return r.text(); })
-    .then(function(html) {
-      var doc = new DOMParser().parseFromString(html, 'text/html');
-      var Title = '', Thumb = '', Author = '', Status = '', Genre = '', Description = '';
+function q(doc, sel) {
+  var el = doc.select(sel).first();
+  return el ? el.text().trim() : '';
+}
 
-      if (site === 'lnmtl') {
-        Title = query(doc, 'h1, [itemprop="name"], .novel-title');
-        Thumb = getImg(doc, 'img.cover, img[itemprop="image"], .novel-cover img, .book img');
-        Author = query(doc, '.author a, [itemprop="author"] a, .info .author');
-        Status = query(doc, '.status, .novel-status');
-        Genre = query(doc, '.genre a, .category a, .tags a');
-        Description = query(doc, '.description, .novel-desc, .summary, [itemprop="description"]');
-      } else if (site === 'foxtruyen') {
-        Title = query(doc, 'h1, .story-title, .book-name, .name');
-        Thumb = getImg(doc, '.story-cover img, .cover img, .book-cover img');
-        Author = query(doc, '.author a, .tac-gia a, .info .author');
-        Status = query(doc, '.status, .trang-thai, .story-status');
-        Genre = query(doc, '.the-loai a, .genre a, .category a, .tags a');
-        Description = query(doc, '.story-desc, .description, .summary, .mota, .detail');
-      } else if (site === 'qidian' || (isStvProxy && /qidian/i.test(url))) {
-        // Qidian detail via STV proxy or direct
-        Title = query(doc, '#bookName, h1, .book-name');
-        Thumb = getImg(doc, '#bookImg img, .book-cover img, .cover img');
-        Author = query(doc, 'meta[property="og:novel:author"], .author a, .book-author');
-        Status = query(doc, '.status, .book-status');
-        Genre = query(doc, '.book-category a, .tags a, .category a');
-        Description = query(doc, '#book-intro-detail, .book-intro, .intro, .description');
-      } else if (site === 'fanqie' || (isStvProxy && /fanqie/i.test(url))) {
-        Title = query(doc, 'h1, .book-name, .title');
-        Thumb = getImg(doc, '.book-cover img, .cover img, img.cover');
-        Author = query(doc, '.author, .book-author, [itemprop="author"]');
-        Status = query(doc, '.status, .book-status');
-        Genre = query(doc, '.category a, .tags a, .genre a');
-        Description = query(doc, '.intro, .description, .book-intro, .summary');
-      } else if (site === '69shu' || (isStvProxy && /69shu/i.test(url))) {
-        Title = query(doc, 'div.booknav2 > h1 > a, h1, .book-name');
-        Thumb = getImg(doc, 'div.bookimg2 > img, .book-cover img, .cover img');
-        Author = query(doc, 'div.booknav2 > p:nth-child(3) a, .author a, .book-author');
-        Status = query(doc, '.status, .book-status');
-        Genre = query(doc, '.category a, .tags a');
-        Description = query(doc, '#jianjie-popup > div > div.content p, .intro, .description');
-      } else if (site === 'ptwxz' || (isStvProxy && /ptwxz|piaotia/i.test(url))) {
-        Title = query(doc, '#content h1, h1, .book-name');
-        Thumb = getImg(doc, '#content table table a > img[align][hspace][vspace], .book-cover img, .cover img');
-        Author = query(doc, '#content table table td:contains("作者"), .author');
-        Status = query(doc, '.status, .book-status');
-        Genre = query(doc, '#content table table td:contains("类别"), .category a, .tags a');
-        Description = cleanHtml(queryHtml(doc, '#content table table div[style]:not([id]):not([onclick])', 'span, a'));
-      } else if (site === 'qimao' || (isStvProxy && /qimao|7mao/i.test(url))) {
-        Title = query(doc, 'h1, .book-name, .title');
-        Thumb = getImg(doc, '.book-cover img, .cover img, img.cover');
-        Author = query(doc, '.author, .book-author, [itemprop="author"]');
-        Status = query(doc, '.status, .book-status');
-        Genre = query(doc, '.category a, .tags a, .genre a');
-        Description = query(doc, '.intro, .description, .book-intro, .summary');
-      } else {
-        Title = query(doc, 'h1');
-        Thumb = getImg(doc, 'img.cover, img[itemprop="image"]');
-        Author = query(doc, '.author, [itemprop="author"]');
-        Status = query(doc, '.status');
-        Description = query(doc, '.desc, .description, [itemprop="description"]');
-      }
+function qHtml(doc, sel) {
+  var el = doc.select(sel).first();
+  return el ? el.html() : '';
+}
 
-      BookDetail({
-        Name: Title || 'Không rõ',
-        Url: url,
-        Thumb: Thumb || '',
-        Author: Author || 'Đang cập nhật',
-        Description: Description || 'Không có mô tả',
-        Status: Status || 'Đang cập nhật',
-        Genre: Genre || 'Không rõ'
-      });
-    })
-    .catch(function() {
-      BookDetail({Name: 'Lỗi', Url: url, Thumb: '', Author: '', Description: 'Không thể tải trang', Status: '', Genre: ''});
-    });
+function attr(doc, sel, name) {
+  var el = doc.select(sel).first();
+  return el ? el.attr(name) : '';
+}
 
-  function query(doc, sel) {
-    var el = doc.querySelector(sel);
-    return el ? el.textContent.trim() : '';
-  }
+function lnmtlDetail(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('LNMTL fetch failed');
+  var doc = response.html();
+  return Response.success({
+    name: q(doc, 'h1, [itemprop="name"], .novel-title') || 'Không rõ',
+    cover: attr(doc, 'img.cover, img[itemprop="image"], .novel-cover img', 'src'),
+    author: q(doc, '.author a, [itemprop="author"] a, .info .author') || 'Đang cập nhật',
+    description: qHtml(doc, '.description, .novel-desc, .summary, [itemprop="description"]') || 'Không có mô tả',
+    detail: 'Status: ' + (q(doc, '.status, .novel-status') || 'Đang cập nhật'),
+    ongoing: true,
+    host: 'https://lnmtl.com'
+  });
+}
 
-  function queryHtml(doc, sel, removeSel) {
-    var el = doc.querySelector(sel);
-    if (!el) return '';
-    if (removeSel) {
-      var toRemove = el.querySelectorAll(removeSel);
-      toRemove.forEach(function(r) { r.parentNode.removeChild(r); });
+function foxtruyenDetail(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('FoxTruyen fetch failed');
+  var doc = response.html();
+  return Response.success({
+    name: q(doc, 'h1, .story-title, .book-name, .name') || 'Không rõ',
+    cover: attr(doc, '.story-cover img, .cover img, .book-cover img', 'src'),
+    author: q(doc, '.author a, .tac-gia a, .info .author') || 'Đang cập nhật',
+    description: qHtml(doc, '.story-desc, .description, .summary, .mota, .detail') || 'Không có mô tả',
+    detail: 'Status: ' + (q(doc, '.status, .trang-thai, .story-status') || 'Đang cập nhật'),
+    ongoing: true,
+    host: 'https://foxtruyen2.com'
+  });
+}
+
+function stvDetail(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('STV fetch failed');
+  var doc = response.html();
+
+  var name = q(doc, '#oriname, h1, .book-name');
+  var author = '';
+  try {
+    var cap = doc.select("i.cap").first();
+    if (cap && cap.attr("onclick")) {
+      author = cap.attr("onclick").replace(/location=\'\/\?find\=&findinname\=(.*?)\'/g, "$1");
     }
-    return el.innerHTML;
+  } catch(e) {}
+  var desc = '';
+  try { desc = doc.select(".blk:has(.fa-water) .blk-body").html() || ''; } catch(e) {}
+  var detailHtml = '';
+  try {
+    var _detail = doc.select("#inner > div.container.px-md-4.px-sm-0.px-0 > div:nth-child(5) .blk-body");
+    try { _detail.select("a").remove(); } catch(e) {}
+    detailHtml = _detail.html().replace(/\n/g, "<br>");
+  } catch(e) {}
+
+  var cover = '';
+  try {
+    var ogImg = doc.select('meta[property="og:image"]').first().attr("content");
+    cover = (ogImg || '').replace("/cdn/images/nc.jpg", "https://static.sangtacvietcdn.xyz/img/bookcover256.jpg");
+  } catch(e) {}
+
+  if (url.includes("69shu")) {
+    var m = url.match(/(\d+)\/(\d+)\/?$/);
+    if (m) {
+      cover = String.format(
+        '{0}/files/article/image/{1}/{2}/{2}s.jpg',
+        'https://static.69shuba.com',
+        Math.floor(m[2] / 1000),
+        m[2]
+      );
+    }
   }
 
-  function getImg(doc, sel) {
-    var el = doc.querySelector(sel);
-    return el ? (el.src || el.getAttribute('data-src') || el.getAttribute('data-lazy-src') || '') : '';
-  }
+  return Response.success({
+    name: name || 'Không rõ',
+    cover: cover,
+    author: author || 'Unknown',
+    description: desc,
+    detail: detailHtml,
+    ongoing: true,
+    host: STVHOST,
+    suggests: [{
+      title: 'Truyện từ các nguồn khác:',
+      input: name,
+      script: 'suggests.js'
+    }]
+  });
+}
 
-  function cleanHtml(html) {
-    if (!html) return '';
-    html = html.replace(/\n/g, '<br>');
-    html = html.replace(/(<br>\s*){2,}/gm, '<br>');
-    html = html.replace(/<!--[^>]*-->/gm, '');
-    html = html.replace(/&nbsp;/g, '');
-    html = html.replace(/(^(\s*<br>\s*)+|(<br>\s*)+$)/gm, '');
-    return html.trim();
+function qidianDetail(url) {
+  var bookId = url.match(/\d+/g);
+  if (!bookId) return Response.error('Cannot extract Qidian book ID');
+  return stvDetail(STVHOST + '/truyen/qidian/1/' + bookId[bookId.length - 1] + '/');
+}
+
+function fanqieDetail(url) {
+  var m = url.match(/(\d+)\/(\d+)/);
+  if (!m) return Response.error('Cannot extract Fanqie book ID');
+  return stvDetail(STVHOST + '/truyen/fanqie/1/' + m[1] + '/');
+}
+
+function shu69Detail(url) {
+  var response = fetch(url);
+  if (response.ok) {
+    var doc = response.html('gbk');
+    return Response.success({
+      name: q(doc, 'div.booknav2 > h1 > a, h1'),
+      cover: '',
+      author: q(doc, 'div.booknav2 > p:nth-child(3) a'),
+      description: qHtml(doc, '#jianjie-popup > div > div.content p'),
+      detail: '',
+      ongoing: true,
+      host: 'https://69shuba.com'
+    });
   }
-})();
+  var m = url.match(/\/book\/(\d+)/);
+  if (m) return stvDetail(STVHOST + '/truyen/69shu/1/' + m[1] + '/');
+  return Response.error('69shu detail failed');
+}
+
+function ptwxzDetail(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('Ptwxz fetch failed');
+  var doc = response.html('gb2312');
+  return Response.success({
+    name: q(doc, '#content h1, h1'),
+    cover: attr(doc, '#content table table a > img[align][hspace][vspace]', 'src'),
+    author: '',
+    description: qHtml(doc, '#content table table div[style]:not([id]):not([onclick])'),
+    detail: '',
+    ongoing: true,
+    host: 'https://www.piaotia.com'
+  });
+}
+
+function genericDetail(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('Fetch failed');
+  var doc = response.html();
+  return Response.success({
+    name: q(doc, 'h1') || 'Không rõ',
+    cover: '',
+    author: q(doc, '.author, [itemprop="author"]') || 'Unknown',
+    description: qHtml(doc, '.desc, .description, [itemprop="description"]'),
+    detail: '',
+    ongoing: true,
+    host: url
+  });
+}
+
+// ========== Entry Point ==========
+function execute(url) {
+  var site = detectSite(url);
+  switch(site) {
+    case 'lnmtl':    return lnmtlDetail(url);
+    case 'foxtruyen': return foxtruyenDetail(url);
+    case 'stv':      return stvDetail(url);
+    case 'qidian':   return qidianDetail(url);
+    case 'fanqie':   return fanqieDetail(url);
+    case '69shu':    return shu69Detail(url);
+    case 'ptwxz':    return ptwxzDetail(url);
+    case 'qimao':    return Response.error('Qimao cần dùng STV proxy');
+    default:         return genericDetail(url);
+  }
+}

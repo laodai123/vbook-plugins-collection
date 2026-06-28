@@ -1,7 +1,5 @@
 // VBook Plugin — Truyện VN All-in-One (Common Libs)
-// Compatibility layer for: String.format, $.Q, $.QA, cleanHtml, CryptoJS (if needed)
-// VBook usually loads these from src/libs.js automatically if plugin.json points to it.
-// This file is OPTIONAL — kept for future expansion.
+// Compatibility layer: String.format, String.formatUnicorn, type checker, etc.
 
 // String.format polyfill
 if (!String.format) {
@@ -13,7 +11,7 @@ if (!String.format) {
   };
 }
 
-// String prototype extensions (formatUnicorn, append, prepend, rtrim, ltrim, mayBeFillHost)
+// String prototype extensions
 String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
   function () {
     var str = this.toString();
@@ -57,6 +55,17 @@ String.prototype.mayBeFillHost = function (host) {
   return host.rtrim('/') + '/' + url.ltrim('/');
 };
 
+// Clean HTML helper (loại bỏ ads, duplicate br, junk)
+function cleanHtml(html) {
+  if (!html) return '';
+  html = html.replace(/\n/g, '<br>');
+  html = html.replace(/(<br>\s*){2,}/gm, '<br>');
+  html = html.replace(/<!--[^>]*-->/gm, '');
+  html = html.replace(/&nbsp;/g, '');
+  html = html.replace(/(^(\s*<br>\s*)+|(<br>\s*)+$)/gm, '');
+  return html.trim();
+}
+
 // Type checker
 var TypeChecker = {
   isString: function (o) {
@@ -75,25 +84,3 @@ var TypeChecker = {
     return typeof o === 'object' && o !== null;
   }
 };
-
-// Clean HTML helper
-function cleanHtml(html) {
-  if (!html) return '';
-  html = html.replace(/\n/g, '<br>');
-  html = html.replace(/(<br>\s*){2,}/gm, '<br>');
-  html = html.replace(/<!--[^>]*-->/gm, '');
-  html = html.replace(/&nbsp;/g, '');
-  html = html.replace(/(^(\s*<br>\s*)+|(<br>\s*)+$)/gm, '');
-  return html.trim();
-}
-
-// Helper for querySelector wrapper
-function $(sel, ctx) {
-  ctx = ctx || document;
-  return ctx.querySelector(sel);
-}
-
-function $$(sel, ctx) {
-  ctx = ctx || document;
-  return Array.prototype.slice.call(ctx.querySelectorAll(sel));
-}

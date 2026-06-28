@@ -1,437 +1,236 @@
-// VBook Plugin — Truyện VN All-in-One (Table of Contents)
-// Hỗ trợ: LNMTL, FoxTruyen2, Qidian, Fanqie, 69shu, Ptwxz, Qimao
-(function() {
-  var url = BookUrl || '';
-  var site = '';
+// VBook Plugin — Truyện VN All-in-One (TOC)
+// Format: VBook Legado
+// Hỗ trợ: LNMTL, FoxTruyen2, Qidian, Fanqie, 69shu, Ptwxz, Qimao, STV Proxy
 
-  if (/lnmtl\.com/i.test(url)) site = 'lnmtl';
-  else if (/foxtruyen2\.com|truyenggg\.com/i.test(url)) site = 'foxtruyen';
-  else if (/qidian\.(com|cn)/i.test(url)) site = 'qidian';
-  else if (/fanqie|fanqienovel/i.test(url)) site = 'fanqie';
-  else if (/69shu|69shuba/i.test(url)) site = '69shu';
-  else if (/ptwxz|piaotia|piaotian/i.test(url)) site = 'ptwxz';
-  else if (/qimao|7mao/i.test(url)) site = 'qimao';
+var STVHOST = "http://14.225.254.182";
 
-  // Check if URL is STV proxy
-  var isStvProxy = /14\.225\.254\.182/i.test(url);
+function detectSite(url) {
+  if (/lnmtl\.com/i.test(url)) return 'lnmtl';
+  if (/foxtruyen2\.com|truyenggg\.com/i.test(url)) return 'foxtruyen';
+  if (/sangtacviet|14\.225\.254\.182/i.test(url)) return 'stv';
+  if (/qidian\.(com|cn)/i.test(url)) return 'qidian';
+  if (/fanqie|fanqienovel/i.test(url)) return 'fanqie';
+  if (/69shu|69shuba/i.test(url)) return '69shu';
+  if (/ptwxz|piaotia|piaotian/i.test(url)) return 'ptwxz';
+  if (/qimao|7mao/i.test(url)) return 'qimao';
+  return 'unknown';
+}
 
-  // ========== Helper functions ==========
-  function getLink(link) {
-    var m = link.match(/(?:book|m)?\.qidian\.(com|cn)\/(?:info|book)\/(\d+)/);
-    return m && m[2];
-  }
-
-  // ========== LNMTL TOC ==========
-  function lnmtlToc() {
-    fetch(url)
-      .then(function(r) { return r.text(); })
-      .then(function(html) {
-        var doc = new DOMParser().parseFromString(html, 'text/html');
-        var result = [];
-        var links = doc.querySelectorAll('a[href*="chapter"], a[href*="chuong"], .chapter-list a, .list-chap a, ul.chapters a, .chapters a');
-        links.forEach(function(a) {
-          var href = a.href || '';
-          var text = (a.textContent || '').trim();
-          if (href && text && text.length > 1) {
-            result.push({Name: text, Url: href});
-          }
-        });
-        // Fallback
-        if (result.length === 0) {
-          doc.querySelectorAll('ul li a, ol li a').forEach(function(a) {
-            var href = a.href;
-            var text = (a.textContent || '').trim();
-            if (href && text && (text.toLowerCase().indexOf('chương') > -1 || text.toLowerCase().indexOf('chapter') > -1 || text.toLowerCase().indexOf('chap') > -1 || /^\d+$/.test(text))) {
-              result.push({Name: text, Url: href});
-            }
-          });
-        }
-        BookList(result.length > 0 ? result : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter', Url: url}]);
-      });
-  }
-
-  // ========== FoxTruyen TOC ==========
-  function foxtruyenToc() {
-    fetch(url)
-      .then(function(r) { return r.text(); })
-      .then(function(html) {
-        var doc = new DOMParser().parseFromString(html, 'text/html');
-        var result = [];
-        var links = doc.querySelectorAll('.chapter-list a, .list-chap a, .list-chapter a, a[href*="chap-"], a[href*="chapter"], a[href*="chuong"], ul.chapters a');
-        links.forEach(function(a) {
-          var href = a.href || '';
-          var text = (a.textContent || '').trim();
-          if (href && text && text.length > 1) {
-            result.push({Name: text, Url: href});
-          }
-        });
-        // Fallback
-        if (result.length === 0) {
-          doc.querySelectorAll('ul li a, ol li a').forEach(function(a) {
-            var href = a.href;
-            var text = (a.textContent || '').trim();
-            if (href && text && (text.toLowerCase().indexOf('chương') > -1 || text.toLowerCase().indexOf('chapter') > -1 || text.toLowerCase().indexOf('chap') > -1 || /^\d+$/.test(text))) {
-              result.push({Name: text, Url: href});
-            }
-          });
-        }
-        BookList(result.length > 0 ? result : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter', Url: url}]);
-      });
-  }
-
-  // ========== Qidian TOC ==========
-  function qidianToc() {
-    // Check if it's STV proxy URL
-    var bookId = null;
-    if (isStvProxy) {
-      // STV proxy format: http://14.225.254.182/truyen/qidian/1/{bookId}/
-      var m = url.match(/\/truyen\/qidian\/1\/(\d+)\//);
-      if (m) bookId = m[1];
-    } else {
-      // Direct Qidian URL
-      bookId = getLink(url);
+function lnmtlToc(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('LNMTL fetch failed');
+  var doc = response.html();
+  var links = doc.select('a[href*="chapter"], a[href*="chuong"], .chapter-list a, .list-chap a, ul.chapters a, .chapters a');
+  var result = [];
+  links.forEach(function(a) {
+    var href = a.attr('href');
+    var text = (a.text() || '').trim();
+    if (href && text && text.length > 1) {
+      result.push({name: text, url: href});
     }
-
-    if (!bookId) {
-      BookList([{Name: 'Không xác định được Book ID', Url: url}]);
-      return;
-    }
-
-    // Use STV API for chapter list
-    var apiUrl = 'http://14.225.254.182/index.php?ngmar=chapterlist&h=qidian&bookid=' + bookId + '&sajax=getchapterlist';
-    var referer = 'http://14.225.254.182/truyen/qidian/1/' + bookId + '/';
-
-    fetch(apiUrl, {
-      headers: {
-        'referer': referer
+  });
+  if (result.length === 0) {
+    doc.select('ul li a, ol li a').forEach(function(a) {
+      var href = a.attr('href');
+      var text = (a.text() || '').trim();
+      if (href && text && (text.toLowerCase().indexOf('chương') > -1 || text.toLowerCase().indexOf('chapter') > -1 || /^\d+$/.test(text))) {
+        result.push({name: text, url: href});
       }
-    })
-      .then(function(r) { return r.json(); })
-      .then(function(json) {
-        var chapters = [];
-        if (json && json.oridata) {
-          var data = json.oridata;
-          var cacheChapter = data.split('-//-');
-          for (var i = 0; i < cacheChapter.length; i++) {
-            var da = cacheChapter[i].split('-/-');
-            if (da.length >= 3) {
-              chapters.push({
-                name: da[2],
-                url: 'https://m.qidian.com/chapter/' + bookId + '/' + da[1] + '/'
-              });
-            }
-          }
+    });
+  }
+  return Response.success(result.length > 0 ? result : [{name: 'Chương 1', url: url}]);
+}
+
+function foxtruyenToc(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('FoxTruyen fetch failed');
+  var doc = response.html();
+  var links = doc.select('.chapter-list a, .list-chap a, .list-chapter a, a[href*="chap-"], a[href*="chapter"], a[href*="chuong"], ul.chapters a');
+  var result = [];
+  links.forEach(function(a) {
+    var href = a.attr('href');
+    var text = (a.text() || '').trim();
+    if (href && text && text.length > 1) {
+      result.push({name: text, url: href});
+    }
+  });
+  if (result.length === 0) {
+    doc.select('ul li a, ol li a').forEach(function(a) {
+      var href = a.attr('href');
+      var text = (a.text() || '').trim();
+      if (href && text && (text.toLowerCase().indexOf('chương') > -1 || /^\d+$/.test(text))) {
+        result.push({name: text, url: href});
+      }
+    });
+  }
+  return Response.success(result.length > 0 ? result : [{name: 'Chương 1', url: url}]);
+}
+
+function stvApiChapterList(bookId, source) {
+  var referer = STVHOST + '/truyen/' + source + '/1/' + bookId + '/';
+  var apiUrl = STVHOST + '/index.php?ngmar=chapterlist&h=' + source + '&bookid=' + bookId + '&sajax=getchapterlist';
+  var response = fetch(apiUrl, {
+    headers: {referer: referer}
+  });
+  if (!response.ok) return Response.error('STV API failed');
+  var json = response.json();
+  var chapters = [];
+  if (json && json.code === 1 && json.data) {
+    var cacheChapter = json.data.split('-//-');
+    for (var i = 0; i < cacheChapter.length; i++) {
+      var da = cacheChapter[i].split('-/-');
+      if (da.length >= 3) {
+        var chUrl = '';
+        if (source === 'qidian') {
+          chUrl = 'https://m.qidian.com/chapter/' + bookId + '/' + da[1] + '/';
+        } else if (source === 'fanqie') {
+          chUrl = STVHOST + '/truyen/fanqie/1/' + bookId + '/' + da[1] + '/';
+        } else if (source === '69shu') {
+          chUrl = 'https://69shuba.com/txt/' + bookId + '/' + da[1];
+        } else if (source === 'ptwxz') {
+          chUrl = 'https://www.piaotia.com/html/' + Math.floor(bookId/1000) + '/' + bookId + '/' + da[1] + '.html';
+        } else if (source === 'qimao') {
+          chUrl = STVHOST + '/truyen/qimao/1/' + bookId + '/' + da[1] + '/';
         }
-        if (chapters.length === 0) {
-          // Fallback to direct Qidian mobile
-          return fetch('https://m.qidian.com/book/' + bookId + '/catalog/', {
-            headers: {'user-agent': 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36'}
-          })
-            .then(function(r) { return r.text(); })
-            .then(function(html) {
-              var chapters2 = [];
-              try {
-                var doc = new DOMParser().parseFromString(html, 'text/html');
-                var text = doc.querySelector('#vite-plugin-ssr_pageContext')?.textContent || '';
-                if (text) {
-                  text = text.replace(/<\/?script.*?>/g, '');
-                  var json = JSON.parse(text);
-                  var q_list = json.pageContext?.pageProps?.pageData?.vs;
-                  if (q_list) {
-                    q_list.forEach(function(q) {
-                      q.cs.forEach(function(e) {
-                        chapters2.push({
-                          name: e.cN,
-                          url: 'https://m.qidian.com/chapter/' + bookId + '/' + e.id + '/',
-                          pay: e.sS == 1 ? false : true
-                        });
-                      });
-                    });
-                  }
-                }
-              } catch(e) {}
-              return chapters2;
+        chapters.push({
+          name: da[2].replace(/^(\d+)\.第(\d+)章/, '第$2章'),
+          url: chUrl
+        });
+      }
+    }
+  }
+  return chapters;
+}
+
+function stvToc(url) {
+  // Parse URL: http://14.225.254.182/truyen/{source}/1/{bookId}/
+  var m = url.match(/\/truyen\/(\w+)\/1\/(\d+)\/?/);
+  if (!m) return Response.error('Invalid STV URL');
+  var source = m[1];
+  var bookId = m[2];
+  var chapters = stvApiChapterList(bookId, source);
+  return Response.success(chapters.length > 0 ? chapters : [{name: 'Chương 1', url: url}]);
+}
+
+function qidianToc(url) {
+  // Direct Qidian: https://m.qidian.com/book/{bookId}/catalog/
+  var m = url.match(/\/book\/(\d+)\//);
+  var bookId = m ? m[1] : (url.match(/\d+/g) || [])[0];
+  if (!bookId) return Response.error('No book ID');
+
+  // Try mobile catalog
+  var response = fetch('https://m.qidian.com/book/' + bookId + '/catalog/', {
+    headers: {'user-agent': 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36'}
+  });
+  if (!response.ok) return Response.error('Qidian catalog failed');
+
+  var html = response.text();
+  var chapters = [];
+  try {
+    var match = html.match(/vite-plugin-ssr_pageContext[^>]*>([\s\S]*?)<\/script>/);
+    if (match) {
+      var jsonText = match[1].replace(/<\/?script.*?>/g, '');
+      var json = JSON.parse(jsonText);
+      var qList = json.pageContext && json.pageContext.pageProps && json.pageContext.pageProps.pageData && json.pageContext.pageProps.pageData.vs;
+      if (qList) {
+        qList.forEach(function(q) {
+          q.cs.forEach(function(e) {
+            chapters.push({
+              name: e.cN,
+              url: 'https://m.qidian.com/chapter/' + bookId + '/' + e.id + '/',
+              pay: e.sS == 1 ? false : true
             });
-        }
-        return chapters;
-      })
-      .then(function(chapters) {
-        BookList(chapters.length > 0 ? chapters : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter Qidian', Url: url}]);
-      });
-  }
-
-  // ========== Fanqie TOC ==========
-  function fanqieToc() {
-    // Fanqie uses STV proxy
-    var bookId = null;
-    if (isStvProxy) {
-      var m = url.match(/\/truyen\/fanqie\/1\/(\d+)\//);
-      if (m) bookId = m[1];
-    }
-    if (!bookId) {
-      // Try to extract from URL
-      var m = url.match(/\/(\d+)\/(\d+)\//);
-      if (m) bookId = m[1];
-    }
-    if (!bookId) {
-      BookList([{Name: 'Không xác định được Book ID', Url: url}]);
-      return;
-    }
-
-    // Use STV API
-    var apiUrl = 'http://14.225.254.182/index.php?ngmar=chapterlist&h=fanqie&bookid=' + bookId + '&sajax=getchapterlist';
-    var referer = 'http://14.225.254.182/truyen/fanqie/1/' + bookId + '/';
-
-    fetch(apiUrl, {
-      headers: {
-        'referer': referer
-      }
-    })
-      .then(function(r) { return r.json(); })
-      .then(function(json) {
-        var chapters = [];
-        if (json && json.oridata) {
-          var data = json.oridata;
-          var cacheChapter = data.split('-//-');
-          for (var i = 0; i < cacheChapter.length; i++) {
-            var da = cacheChapter[i].split('-/-');
-            if (da.length >= 3) {
-              chapters.push({
-                name: da[2],
-                url: 'http://14.225.254.182/truyen/fanqie/1/' + bookId + '/' + da[1] + '/'
-              });
-            }
-          }
-        }
-        BookList(chapters.length > 0 ? chapters : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter Fanqie', Url: url}]);
-      });
-  }
-
-  // ========== 69shu TOC ==========
-  function shu69Toc() {
-    var bookId = null;
-    if (isStvProxy) {
-      var m = url.match(/\/truyen\/69shu\/1\/(\d+)\//);
-      if (m) bookId = m[1];
-    } else {
-      // Direct 69shu URL: https://69shuba.com/book/{id}/
-      var m = url.match(/\/book\/(\d+)\//);
-      if (m) bookId = m[1];
-    }
-
-    if (!bookId) {
-      BookList([{Name: 'Không xác định được Book ID', Url: url}]);
-      return;
-    }
-
-    // Use STV API
-    var apiUrl = 'http://14.225.254.182/index.php?ngmar=chapterlist&h=69shu&bookid=' + bookId + '&sajax=getchapterlist';
-    var referer = 'http://14.225.254.182/truyen/69shu/1/' + bookId + '/';
-
-    fetch(apiUrl, {
-      headers: {
-        'referer': referer
-      }
-    })
-      .then(function(r) { return r.json(); })
-      .then(function(json) {
-        var chapters = [];
-        if (json && json.oridata) {
-          var data = json.oridata;
-          var cacheChapter = data.split('-//-');
-          for (var i = 0; i < cacheChapter.length; i++) {
-            var da = cacheChapter[i].split('-/-');
-            if (da.length >= 3) {
-              chapters.push({
-                name: da[2].replace(/^(\d+)\.第(\d+)章/, '第$2章'),
-                url: 'https://69shuba.com/txt/' + bookId + '/' + da[1]
-              });
-            }
-          }
-        }
-        BookList(chapters.length > 0 ? chapters : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        // Fallback to direct 69shu (GBK)
-        fetch('https://69shuba.com/book/' + bookId + '/')
-          .then(function(r) { return r.text(); })
-          .then(function(html) {
-            var doc = new DOMParser().parseFromString(html, 'text/html');
-            var chapters = [];
-            var links = doc.querySelectorAll('div.catalog > ul > li > a:not(#bookcase)');
-            links.forEach(function(a) {
-              chapters.push({
-                name: a.textContent.trim().replace(/^(\d+)\.第(\d+)章/, '第$2章'),
-                url: a.href
-              });
-            });
-            BookList(chapters.length > 0 ? chapters.reverse() : [{Name: 'Chương 1', Url: url}]);
-          })
-          .catch(function() {
-            BookList([{Name: 'Không thể tải danh sách chapter 69shu', Url: url}]);
           });
-      });
-  }
-
-  // ========== Ptwxz TOC ==========
-  function ptwxzToc() {
-    var bookId = null;
-    if (isStvProxy) {
-      var m = url.match(/\/truyen\/ptwxz\/1\/(\d+)\//);
-      if (m) bookId = m[1];
-    } else {
-      // Direct Ptwxz URL: https://www.piaotia.com/bookinfo/{id1}/{id2}.html
-      var m = url.match(/bookinfo\/(\d+)\/(\d+)\.html/);
-      if (m) bookId = m[2];
-    }
-
-    if (!bookId) {
-      BookList([{Name: 'Không xác định được Book ID', Url: url}]);
-      return;
-    }
-
-    // Use STV API
-    var apiUrl = 'http://14.225.254.182/index.php?ngmar=chapterlist&h=ptwxz&bookid=' + bookId + '&sajax=getchapterlist';
-    var referer = 'http://14.225.254.182/truyen/ptwxz/1/' + bookId + '/';
-
-    fetch(apiUrl, {
-      headers: {
-        'referer': referer
-      }
-    })
-      .then(function(r) { return r.json(); })
-      .then(function(json) {
-        var chapters = [];
-        if (json && json.oridata) {
-          var data = json.oridata;
-          var cacheChapter = data.split('-//-');
-          for (var i = 0; i < cacheChapter.length; i++) {
-            var da = cacheChapter[i].split('-/-');
-            if (da.length >= 3) {
-              chapters.push({
-                name: da[2],
-                url: 'https://www.piaotia.com/html/' + Math.floor(bookId/1000) + '/' + bookId + '/' + da[1] + '.html'
-              });
-            }
-          }
-        }
-        BookList(chapters.length > 0 ? chapters : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter Ptwxz', Url: url}]);
-      });
-  }
-
-  // ========== Qimao TOC ==========
-  function qimaoToc() {
-    var bookId = null;
-    if (isStvProxy) {
-      var m = url.match(/\/truyen\/qimao\/1\/(\d+)\//);
-      if (m) bookId = m[1];
-    }
-
-    if (!bookId) {
-      BookList([{Name: 'Không xác định được Book ID', Url: url}]);
-      return;
-    }
-
-    // Use STV API
-    var apiUrl = 'http://14.225.254.182/index.php?ngmar=chapterlist&h=qimao&bookid=' + bookId + '&sajax=getchapterlist';
-    var referer = 'http://14.225.254.182/truyen/qimao/1/' + bookId + '/';
-
-    fetch(apiUrl, {
-      headers: {
-        'referer': referer
-      }
-    })
-      .then(function(r) { return r.json(); })
-      .then(function(json) {
-        var chapters = [];
-        if (json && json.oridata) {
-          var data = json.oridata;
-          var cacheChapter = data.split('-//-');
-          for (var i = 0; i < cacheChapter.length; i++) {
-            var da = cacheChapter[i].split('-/-');
-            if (da.length >= 3) {
-              chapters.push({
-                name: da[2],
-                url: 'http://14.225.254.182/truyen/qimao/1/' + bookId + '/' + da[1] + '/'
-              });
-            }
-          }
-        }
-        BookList(chapters.length > 0 ? chapters : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter Qimao', Url: url}]);
-      });
-  }
-
-  // ========== Generic TOC ==========
-  function genericToc() {
-    fetch(url)
-      .then(function(r) { return r.text(); })
-      .then(function(html) {
-        var doc = new DOMParser().parseFromString(html, 'text/html');
-        var result = [];
-        var links = doc.querySelectorAll('.list-chapter a, .chapter-list a, a[href*="chuong"], a[href*="chapter"], a[href*="chap"]');
-        links.forEach(function(a) {
-          var href = a.href || '';
-          var text = (a.textContent || '').trim();
-          if (href && text && text.length > 1) {
-            result.push({Name: text, Url: href});
-          }
         });
-        // Fallback
-        if (result.length === 0) {
-          doc.querySelectorAll('ul li a, ol li a').forEach(function(a) {
-            var href = a.href;
-            var text = (a.textContent || '').trim();
-            if (href && text && (text.toLowerCase().indexOf('chương') > -1 || text.toLowerCase().indexOf('chapter') > -1 || text.toLowerCase().indexOf('chap') > -1 || /^\d+$/.test(text))) {
-              result.push({Name: text, Url: href});
-            }
-          });
-        }
-        BookList(result.length > 0 ? result : [{Name: 'Chương 1', Url: url}]);
-      })
-      .catch(function() {
-        BookList([{Name: 'Không thể tải danh sách chapter', Url: url}]);
-      });
-  }
+      }
+    }
+  } catch(e) {}
 
-  // ========== Route ==========
+  return Response.success(chapters.length > 0 ? chapters : [{name: 'Chương 1', url: url}]);
+}
+
+function fanqieToc(url) {
+  // Direct Fanqie: https://fanqienovel.com/page/{bookId}
+  var m = url.match(/(\d+)/);
+  var bookId = m ? m[1] : null;
+  if (!bookId) return Response.error('No book ID');
+  // Use STV for Fanqie
+  return stvToc(STVHOST + '/truyen/fanqie/1/' + bookId + '/');
+}
+
+function shu69Toc(url) {
+  // Direct 69shu: https://69shuba.com/book/{id}/
+  var m = url.match(/\/book\/(\d+)/);
+  if (m) {
+    var bookId = m[1];
+    var response = fetch('https://69shuba.com/book/' + bookId + '/');
+    if (response.ok) {
+      var doc = response.html('gbk');
+      var chapters = [];
+      doc.select('div.catalog > ul > li > a:not(#bookcase)').forEach(function(a) {
+        chapters.push({
+          name: (a.text() || '').trim().replace(/^(\d+)\.第(\d+)章/, '第$2章'),
+          url: a.attr('href')
+        });
+      });
+      return Response.success(chapters.reverse());
+    }
+    // Fallback to STV
+    return stvToc(STVHOST + '/truyen/69shu/1/' + bookId + '/');
+  }
+  return Response.error('Invalid 69shu URL');
+}
+
+function ptwxzToc(url) {
+  // Direct Ptwxz: https://www.piaotia.com/bookinfo/{id1}/{id2}.html
+  var m = url.match(/bookinfo\/(\d+)\/(\d+)\.html/);
+  if (m) {
+    var bookId = m[2];
+    var tocUrl = url.replace(/bookinfo\/(\d+)\/(\d+)\.html$/, '/html/$1/$2/');
+    if (tocUrl.slice(-1) !== '/') tocUrl += '/';
+    var response = fetch(tocUrl);
+    if (!response.ok) return Response.error('Ptwxz fetch failed');
+    var doc = response.html('gb2312');
+    var chapters = [];
+    doc.select('div.centent li > a').forEach(function(a) {
+      var href = a.attr('href');
+      chapters.push({
+        name: (a.text() || '').trim(),
+        url: href.startsWith('http') ? href : tocUrl + href.replace(/^\//, '')
+      });
+    });
+    return Response.success(chapters.length > 0 ? chapters : [{name: 'Chương 1', url: url}]);
+  }
+  return Response.error('Invalid Ptwxz URL');
+}
+
+function genericToc(url) {
+  var response = fetch(url);
+  if (!response.ok) return Response.error('Fetch failed');
+  var doc = response.html();
+  var links = doc.select('.list-chapter a, .chapter-list a, a[href*="chuong"], a[href*="chapter"], a[href*="chap"]');
+  var result = [];
+  links.forEach(function(a) {
+    var href = a.attr('href');
+    var text = (a.text() || '').trim();
+    if (href && text && text.length > 1) {
+      result.push({name: text, url: href});
+    }
+  });
+  return Response.success(result.length > 0 ? result : [{name: 'Chương 1', url: url}]);
+}
+
+function execute(url) {
+  var site = detectSite(url);
   switch(site) {
-    case 'lnmtl':    lnmtlToc(); break;
-    case 'foxtruyen': foxtruyenToc(); break;
-    case 'qidian':   qidianToc(); break;
-    case 'fanqie':   fanqieToc(); break;
-    case '69shu':    shu69Toc(); break;
-    case 'ptwxz':    ptwxzToc(); break;
-    case 'qimao':    qimaoToc(); break;
-    default:
-      // Check STV proxy for other sources
-      if (isStvProxy) {
-        if (/qidian/i.test(url)) qidianToc();
-        else if (/fanqie/i.test(url)) fanqieToc();
-        else if (/69shu/i.test(url)) shu69Toc();
-        else if (/ptwxz/i.test(url)) ptwxzToc();
-        else if (/qimao/i.test(url)) qimaoToc();
-        else genericToc();
-      } else {
-        genericToc();
-      }
-      break;
+    case 'lnmtl':    return lnmtlToc(url);
+    case 'foxtruyen': return foxtruyenToc(url);
+    case 'stv':      return stvToc(url);
+    case 'qidian':   return qidianToc(url);
+    case 'fanqie':   return fanqieToc(url);
+    case '69shu':    return shu69Toc(url);
+    case 'ptwxz':    return ptwxzToc(url);
+    case 'qimao':    return stvToc(url); // Use STV for Qimao
+    default:         return genericToc(url);
   }
-})();
+}
