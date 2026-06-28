@@ -1,5 +1,4 @@
-// Truyện VN All-in-One — Detail Page Handler
-// Hiển thị chi tiết truyện: tên, tác giả, thể loại, mô tả
+// VBook Plugin — Truyện VN All-in-One (Detail)
 (function() {
   var url = BookUrl || '';
   var site = '';
@@ -13,28 +12,24 @@
       var Title = '', Thumb = '', Author = '', Status = '', Genre = '', Description = '';
 
       if (site === 'lnmtl') {
-        // LNMTL layout
-        Title = query(doc, 'h1, [itemprop="name"], .novel-title, .title');
-        Thumb = getImg(doc, 'img.cover, img[itemprop="image"], .novel-cover img');
+        Title = query(doc, 'h1, [itemprop="name"], .novel-title');
+        Thumb = getImg(doc, 'img.cover, img[itemprop="image"], .novel-cover img, .book img');
         Author = query(doc, '.author a, [itemprop="author"] a, .info .author');
         Status = query(doc, '.status, .novel-status');
-        Genre = query(doc, '.genre a, .category a, .tags a, .the-loai a');
+        Genre = query(doc, '.genre a, .category a, .tags a');
         Description = query(doc, '.description, .novel-desc, .summary, [itemprop="description"]');
       } else if (site === 'foxtruyen') {
-        // FoxTruyen layout
-        Title = query(doc, 'h1, .story-title, .book-name, .name, h1');
+        Title = query(doc, 'h1, .story-title, .book-name, .name');
         Thumb = getImg(doc, '.story-cover img, .cover img, .book-cover img');
         Author = query(doc, '.author a, .tac-gia a, .info .author');
         Status = query(doc, '.status, .trang-thai, .story-status');
         Genre = query(doc, '.the-loai a, .genre a, .category a, .tags a');
         Description = query(doc, '.story-desc, .description, .summary, .mota, .detail');
       } else {
-        // Generic
         Title = query(doc, 'h1');
         Thumb = getImg(doc, 'img.cover, img[itemprop="image"]');
         Author = query(doc, '.author, [itemprop="author"]');
         Status = query(doc, '.status');
-        Genre = query(doc, '.genre a, .the-loai a, .category a');
         Description = query(doc, '.desc, .description, [itemprop="description"]');
       }
 

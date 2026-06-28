@@ -1,5 +1,4 @@
-// Truyện VN All-in-One — Chapter Content Handler
-// Đọc nội dung chapter
+// VBook Plugin — Truyện VN All-in-One (Chapter Content)
 (function() {
   var url = BookUrl || '';
   var site = '';
@@ -15,24 +14,21 @@
       var nextUrl = '';
 
       if (site === 'lnmtl') {
-        // LNMTL: chapter content in #chapter-content or .chapter-content
         content = doc.querySelector('#chapter-content, .chapter-content, .content, .reading-content, article, main');
         title = query(doc, 'h1, .chapter-title, .title');
         nextUrl = getNext(doc, 'a[rel="next"], .next a, a.next-chapter');
       } else if (site === 'foxtruyen') {
-        // FoxTruyen: chapter content reading area
-        content = doc.querySelector('#chapter-content, .chapter-content, .content, .reading-content, .story-detail, article, main');
+        content = doc.querySelector('#chapter-content, .chapter-content, .content, .reading-content, article, main, .story-detail');
         title = query(doc, 'h1, .chapter-title, .title');
-        nextUrl = getNext(doc, 'a[rel="next"], .next a, a.next-chapter, a:contains("Tiếp")');
+        nextUrl = getNext(doc, 'a[rel="next"], .next a, a.next-chapter');
       } else {
         content = doc.querySelector('.chapter-content, .content, .reading-content, [itemprop="articleBody"], article');
         title = query(doc, 'h1');
         nextUrl = getNext(doc, 'a[rel="next"], .next a');
       }
 
-      // Clean content
+      // Clean content: remove junk
       if (content) {
-        // Remove junk elements
         var remove = content.querySelectorAll('script, style, iframe, .ads, .ad, .advertisement, .google-auto-placed, ins, .quang-cao, .banner');
         remove.forEach(function(el) { el.parentNode.removeChild(el); });
       }
@@ -46,7 +42,7 @@
     .catch(function() {
       BookChapter({
         Name: 'Lỗi',
-        Content: '<p>Không thể tải nội dung chương. Vui lòng thử lại.</p>',
+        Content: '<p>Không thể tải nội dung chương.</p>',
         NextUrl: ''
       });
     });

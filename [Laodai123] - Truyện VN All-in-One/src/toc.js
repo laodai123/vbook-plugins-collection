@@ -1,5 +1,4 @@
-// Truyện VN All-in-One — Table of Contents Handler
-// Lấy danh sách chapter của một truyện
+// VBook Plugin — Truyện VN All-in-One (Table of Contents)
 (function() {
   var url = BookUrl || '';
   var site = '';
@@ -14,29 +13,27 @@
       var links = [];
 
       if (site === 'lnmtl') {
-        // LNMTL: chapters in <ul class="chapter-list"> or similar
-        links = doc.querySelectorAll('a[href*="chapter"], a[href*="chuong"], .chapter-list a, .list-chap a, ul.chapters a');
+        links = doc.querySelectorAll('a[href*="chapter"], a[href*="chuong"], .chapter-list a, .list-chap a, ul.chapters a, .chapters a');
       } else if (site === 'foxtruyen') {
-        // FoxTruyen: chapters in the story detail page
-        links = doc.querySelectorAll('.chapter-list a, .list-chap a, .list-chapter a, a[href*="chap-"], ul.chapters a');
+        links = doc.querySelectorAll('.chapter-list a, .list-chap a, .list-chapter a, a[href*="chap-"], a[href*="chapter"], a[href*="chuong"], ul.chapters a');
       } else {
-        links = doc.querySelectorAll('a[href*="chapter"], a[href*="chuong"], a[href*="chap"], .list-chapter a, .chapter-list a');
+        links = doc.querySelectorAll('.list-chapter a, .chapter-list a, a[href*="chuong"], a[href*="chapter"], a[href*="chap"]');
       }
 
       links.forEach(function(a) {
         var href = a.href || '';
         var text = (a.textContent || '').trim();
-        if (href && text && text.length > 2) {
+        if (href && text && text.length > 1) {
           result.push({Name: text, Url: href});
         }
       });
 
-      // Fallback: try <ul><li><a> patterns
+      // Fallback: if no chapters found, try generic <ul><li><a>
       if (result.length === 0) {
         doc.querySelectorAll('ul li a, ol li a').forEach(function(a) {
           var href = a.href;
-          var text = a.textContent.trim();
-          if (href && text && (text.toLowerCase().indexOf('chương') > -1 || text.toLowerCase().indexOf('chapter') > -1 || text.toLowerCase().indexOf('chap') > -1)) {
+          var text = (a.textContent || '').trim();
+          if (href && text && (text.toLowerCase().indexOf('chương') > -1 || text.toLowerCase().indexOf('chapter') > -1 || text.toLowerCase().indexOf('chap') > -1 || /^\d+$/.test(text))) {
             result.push({Name: text, Url: href});
           }
         });
