@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Truyện VN All-in-One",
+    "author": "Laodai123",
+    "version": 1,
+    "source": "https://github.com/Laodai123/vbook-plugins-collection/releases/latest",
+    "regexp": "(www.)?(lnmtl.com|foxtruyen2.com|truyenggg.com)/.+",
+    "description": "📚 Tổng hợp truyện từ LNMTL (891 novels) + FoxTruyen2 (10,000+ truyện tranh) trong 1 plugin. Tự động chuyển đổi nguồn.",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript",
+    "encrypt": false,
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
