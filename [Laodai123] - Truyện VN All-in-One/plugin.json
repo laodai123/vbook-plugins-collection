@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Truyện VN All-in-One",
     "author": "Laodai123",
-    "version": 1,
-    "source": "https://github.com/Laodai123/vbook-plugins-collection/releases/latest",
-    "regexp": "(www.)?(lnmtl.com|foxtruyen2.com|truyenggg.com)/.+",
-    "description": "📚 Tổng hợp truyện từ LNMTL (891 novels) + FoxTruyen2 (10,000+ truyện tranh) trong 1 plugin. Tự động chuyển đổi nguồn.",
+    "version": 2,
+    "source": "https://github.com/laodai123/vbook-plugins-collection/releases/latest",
+    "regexp": "(www\\.)?(lnmtl\\.com|foxtruyen2\\.com|truyenggg\\.com|qidian\\.com|qidian\\.cn|fanqie|fanqienovel|69shu|69shuba|ptwxz|piaotia|piaotian|qimao|7mao)\\.?.*",
+    "description": "📚 Tổng hợp truyện từ LNMTL (891 novels) + FoxTruyen2 (10,000+ truyện tranh) + Qidian + Fanqie/番茄 + 69shu + Ptwxz + Qimao/七猫 trong 1 plugin. Tự động chuyển đổi nguồn.",
     "locale": "vi_VN",
     "language": "javascript",
     "type": "novel"
