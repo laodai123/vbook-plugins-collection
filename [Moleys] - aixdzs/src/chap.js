@@ -1,6 +1,6 @@
 function execute(url) {
     if (url.includes('aixdzs.com')) {
-        url = url.replace('www.aixdzs.com', 'm.aixdzs.com');
+        url = url.replace('www.aixdzs.com', 'm.ixdzs8.tw');
     } else if (url.includes('ixdzs8.tw')) {
         url = url.replace('www.ixdzs8.tw', 'm.ixdzs8.tw').replace('ixdzs8.tw', 'm.ixdzs8.tw');
     } else if (url.includes('ixdzs.tw')) {

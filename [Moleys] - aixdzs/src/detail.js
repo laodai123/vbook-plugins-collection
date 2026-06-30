@@ -1,7 +1,7 @@
 function execute(url) {
     // Support both aixdzs.com and ixdzs8.tw/ixdzs.tw domains
     if (url.includes('aixdzs.com')) {
-        url = url.replace('www.aixdzs.com', 'm.aixdzs.com');
+        url = url.replace('www.aixdzs.com', 'm.ixdzs8.tw');
     } else if (url.includes('ixdzs8.tw')) {
         url = url.replace('www.ixdzs8.tw', 'm.ixdzs8.tw').replace('ixdzs8.tw', 'm.ixdzs8.tw');
     } else if (url.includes('ixdzs.tw')) {
@@ -18,7 +18,7 @@ function execute(url) {
             author: author,
             description: doc.select("#intro").text(),
             detail: "作者： " + author + "<br>" + doc.select("#info p").last().text(),
-            host: "https://m.aixdzs.com"  // Keep original host for consistency
+            host: "https://m.ixdzs8.tw"
         });
     }
     return null;

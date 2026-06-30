@@ -6,7 +6,7 @@ function execute() {
         response = fetch(base + '/sort/all');
     }
     if (!response.ok) {
-        base = 'https://m.aixdzs.com';
+        base = 'https://m.ixdzs8.tw';
         response = fetch(base + '/sort/all');
     }
     if (response.ok) {

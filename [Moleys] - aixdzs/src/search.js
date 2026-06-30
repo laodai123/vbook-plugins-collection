@@ -7,7 +7,7 @@ function execute(key, page) {
         response = fetch(base + '/search/?k=' + key + '&page=' + page);
     }
     if (!response.ok) {
-        base = 'https://m.aixdzs.com';
+        base = 'https://m.ixdzs8.tw';
         response = fetch(base + '/search/?k=' + key + '&page=' + page);
     }
     if (response.ok) {

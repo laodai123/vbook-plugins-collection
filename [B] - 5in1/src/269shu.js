@@ -1,4 +1,4 @@
-var host69yuedu = 'https://www.69yuedu.net';
+var host69yuedu = 'https://www.69shumi.net';
 function getChap69yuedu(url) {
     let response = fetch(url);
         let doc = response.html('gbk');
@@ -15,7 +15,7 @@ function getChap69yuedu(url) {
     return htm.replace(/<br\s*\/?>|\n/g, "<br><br>");
 }
 function getToc69yuedu(url) {
-    let rid = url.replace("https://www.69yuedu.net/article/", "").replace(".html", "")
+    let rid = url.replace("https://www.69shumi.net/article/", "").replace(".html", "")
     url = url.replace(".html", ".json")
     console.log(rid)
     let response = fetch(url);
@@ -26,7 +26,7 @@ function getToc69yuedu(url) {
         elems.forEach(function (e) {
             data.push({
                 name: formatName(e.n),
-                url: "https://www.69yuedu.net/r/" + rid +"/" + e.cid + ".html",
+                url: "https://www.69shumi.net/r/" + rid +"/" + e.cid + ".html",
                 host: host69yuedu
             })
         });

@@ -10,7 +10,7 @@ function execute(url, page) {
                 link: e.select("a").first().attr("href"),
                 cover: e.select("img").first().attr("src"),
                 description: e.select(".book-author").first().text(),
-                host: "https://m.aixdzs.com"
+                host: "https://m.ixdzs8.tw"
             })
         });
         let next = doc.select("#pager a.pager-r").attr("href").split("?page=")[1];
