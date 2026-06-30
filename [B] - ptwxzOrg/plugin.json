@@ -2,10 +2,10 @@
   "metadata": {
     "name": "ptwxzOrg",
     "author": "B",
-    "version": 3,
-    "source": "https://ptwxz.org",
-    "regexp": "(https://|http://)(m.|www.)ptwxz.org/.*?/\\d+(/|/index.html)",
-    "description": "Đọc truyện trên trang ptwxz",
+    "version": 4,
+    "source": "https://www.piaotia.com",
+    "regexp": "(https://|http://)(m\\.|www\\.)?(ptwxz\\.org|piaotian\\.com|piaotia\\.com)/bookinfo/\\d+/\\d+\\.html",
+    "description": "Đọc truyện trên trang ptwxz/piaotian",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

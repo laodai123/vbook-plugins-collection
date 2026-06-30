@@ -1,27 +1,18 @@
-
-let BASE_URL = "https://69shuba.cx";
+let BASE_URL = "https://www.69shuba.com";
 let HOME_URL=BASE_URL+"/blist/class/0.htm";
-  let TAG_URL=BASE_URL+"/blist/tags";
-console.log(BASE_URL)
+let TAG_URL=BASE_URL+"/blist/tags";
 try {
-    if (CONFIG_URL) {
+    if (typeof CONFIG_URL !== 'undefined' && CONFIG_URL) {
         BASE_URL = CONFIG_URL;
     }
-} catch (error) {
-}
-  
+} catch (error) {}
 try {
-    
-    if (HOME) {
+    if (typeof HOME !== 'undefined' && HOME) {
         HOME_URL = HOME;
     }
-} catch (error) {
-}
-
+} catch (error) {}
 try {
-    
-    if (TAG) {
+    if (typeof TAG !== 'undefined' && TAG) {
         TAG_URL = TAG;
     }
-} catch (error) {
-}
+} catch (error) {}

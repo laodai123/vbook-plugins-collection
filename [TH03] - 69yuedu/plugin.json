@@ -2,10 +2,10 @@
   "metadata": {
     "name": "69yuedu",
     "author": "TuanHai03",
-    "version": 1,
-    "source": "https://www.69yuedu.net",
-    "regexp": "(www.)?69yuedu.[a-z]{2,}/article/.*",
-    "description": "Đọc truyện trên trang  69yuedu.net",
+    "version": 2,
+    "source": "https://www.69shumi.net",
+    "regexp": "(www\\.)?(69yuedu|69shumi)\\.[a-z]{2,}/article/.*",
+    "description": "Đọc truyện trên trang 69shumi.net",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

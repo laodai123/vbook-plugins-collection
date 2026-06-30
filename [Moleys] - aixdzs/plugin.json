@@ -2,10 +2,10 @@
   "metadata": {
     "name": "aixdzs",
     "author": "Moleys",
-    "version": 1,
-    "source": "http://m.aixdzs.com",
-    "regexp": "(www.|m.)?aixdzs.com/novel/(.*?)",
-    "description": "Đọc truyện trên trang http://m.aixdzs.com",
+    "version": 2,
+    "source": "https://m.aixdzs.com",
+    "regexp": "(www.|m.)?(aixdzs\\.com|ixdzs8\\.tw|ixdzs\\.tw)/novel/(.*?)",
+    "description": "Đọc truyện trên trang https://m.aixdzs.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

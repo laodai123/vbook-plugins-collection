@@ -2,24 +2,20 @@ load('libs.js');
 load('config.js');
 
 function execute(url) {
-     if (url.slice(-1) !== "/") url = url + "/";
-    url = url.replace("m.", "www.").replace(/index.html/g, "") + "index.html";
-    console.log(url)
+    url = url.replace('ptwxz.org', 'piaotia.com').replace('piaotian.com', 'piaotia.com');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
-
-        var data = [];
-        var elems = doc.select('#list > dl dd a');
-        console.log(elems.size())
-
-        elems.forEach(function (e) {
+        let el = doc.select('#list dd a');
+        const data = [];
+        for (let i = 0; i < el.size(); i++) {
+            var e = el.get(i);
             data.push({
                 name: e.text(),
-                url: BASE_URL + e.attr('href')
-            })
-        });
-
+                url: url.substring(0, url.lastIndexOf('/') + 1) + e.attr('href'),
+                host: BASE_URL
+            });
+        }
         return Response.success(data);
     }
     return null;
