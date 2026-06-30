@@ -2,8 +2,8 @@
   "metadata": {
     "name": "5in1",
     "author": "B",
-    "version": 71,
-    "source": "http://14.225.254.182",
+    "version": 73,
+    "source": "https://www.69shuba.com",
     "regexp": "(wwww.)?(((https://|http://)((sangtacviet.*?)|14.225.254.182)/truyen/(qidian|ptwxz|fanqie|69shu|qimao)/1/\\d+.*?))|(69shuba\\.(com|cx|[a-z]{3})/book/(.*?))|(www\\.(ptwxz|piaotian|piaotia)\\.com/bookinfo/\\d+/\\d+\\.html)|(book|m|www)\\.qidian\\.com/(info|book)/(.*?)",
     "description": "(5 trong 1) hỗ trợ đọc các web qidian(chương free), 69shu, ptwxz, qimao, fanqie (lên sangtacviet chỉ để lấy thông tin truyện với đọc bình luận cho tiện thôi)",
     "locale": "zh_CN",

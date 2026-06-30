@@ -2,7 +2,7 @@
   "metadata": {
     "name": "69yuedu",
     "author": "TuanHai03",
-    "version": 2,
+    "version": 3,
     "source": "https://www.69shumi.net",
     "regexp": "(www\\.)?(69yuedu|69shumi)\\.[a-z]{2,}/article/.*",
     "description": "Đọc truyện trên trang 69shumi.net",

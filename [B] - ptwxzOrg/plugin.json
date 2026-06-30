@@ -2,7 +2,7 @@
   "metadata": {
     "name": "ptwxzOrg",
     "author": "B",
-    "version": 4,
+    "version": 5,
     "source": "https://www.piaotia.com",
     "regexp": "(https://|http://)(m\\.|www\\.)?(ptwxz\\.org|piaotian\\.com|piaotia\\.com)/bookinfo/\\d+/\\d+\\.html",
     "description": "Đọc truyện trên trang ptwxz/piaotian",
