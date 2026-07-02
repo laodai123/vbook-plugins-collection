@@ -7,7 +7,7 @@
     "version": 1,
     "locale": "en_US",
     "author": "ivanzzz",
-    "name": "AllNovel",
+    "name": "AllNovel +1",
     "regexp": "(www\\.)?allnovel\\.org/[^/]+/?$",
     "language": "javascript"
   },

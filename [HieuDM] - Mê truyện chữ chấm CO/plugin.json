@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "Mê Truyện Chữ chấm CO",
+    "name": "Mê Truyện Chữ chấm CO +1",
     "author": "HieuDM",
     "version": 2,
     "source": "https://metruyenchu.co",
@@ -16,6 +16,6 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js",
-    "gen" : "gen.js"
+    "gen": "gen.js"
   }
 }

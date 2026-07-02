@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "Truyện Đọc Việt",
+    "name": "Truyện Đọc Việt +1",
     "author": "HieuDM",
     "version": 3,
     "source": "https://truyendocviet1.xyz/",
-    "regexp": "truyendocviet\\d*\\.xyz\\/doc-truyen\\/[^\/]+\\.html$",
+    "regexp": "truyendocviet\\d*\\.xyz\\/doc-truyen\\/[^/]+\\.html$",
     "description": "Extension đọc truyện từ trang Truyện Đọc Việt",
     "local": "vi-VN",
     "language": "javascript",
@@ -17,6 +17,6 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js",
-    "gen" : "gen.js"
+    "gen": "gen.js"
   }
 }

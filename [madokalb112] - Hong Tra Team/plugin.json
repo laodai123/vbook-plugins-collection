@@ -1,23 +1,23 @@
 {
-    "metadata":  {
-                     "name":  "Hong Tra Team",
-                     "author":  "madokalb112",
-                     "version":  5,
-                     "source":  "https://hongtrateam.com",
-                     "regexp":  "(www\\.)?hongtrateam\\.com/truyen/[^/?#]+(?:/[^/?#]+)?/?(?:[?#].*)?$",
-                     "description":  "Doc truyen tren Hong Tra Team",
-                     "locale":  "vi_VN",
-                     "language":  "javascript",
-                     "tag":  "nsfw",
-                     "type":  "novel",
-                     "encrypt":  true
-                 },
-    "script":  {
-                   "home":  "home.js",
-                   "genre":  "genre.js",
-                   "detail":  "detail.js",
-                   "search":  "search.js",
-                   "toc":  "toc.js",
-                   "chap":  "chap.js"
-               }
+  "metadata": {
+    "name": "Hong Tra Team +1",
+    "author": "madokalb112",
+    "version": 5,
+    "source": "https://hongtrateam.com",
+    "regexp": "(www\\.)?hongtrateam\\.com/truyen/[^/?#]+(?:/[^/?#]+)?/?(?:[?#].*)?$",
+    "description": "Doc truyen tren Hong Tra Team",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "tag": "nsfw",
+    "type": "novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
 }

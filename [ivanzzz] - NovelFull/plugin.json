@@ -1,23 +1,23 @@
 {
-    "metadata": {
-        "name": "NovelFull",
-        "author": "ivanzzz",
-        "version": 1,
-        "source": "https:\/\/novelfull.com",
-        "regexp": "(www.)?novelfull\\.(com|net|org|io|vip|me)\/[^\/]+\/?$",
-        "description": "Read novels on NovelFull",
-        "locale": "en_US",
-        "type": "novel",
-        "language": "javascript",
-        "encrypt": false
-    },
-    "script": {
-        "home": "home.js",
-        "genre": "genre.js",
-        "detail": "detail.js",
-        "search": "search.js",
-        "page": "page.js",
-        "toc": "toc.js",
-        "chap": "chap.js"
-    }
+  "metadata": {
+    "name": "NovelFull +1",
+    "author": "ivanzzz",
+    "version": 1,
+    "source": "https://novelfull.com",
+    "regexp": "(www.)?novelfull\\.(com|net|org|io|vip|me)/[^/]+/?$",
+    "description": "Read novels on NovelFull",
+    "locale": "en_US",
+    "type": "novel",
+    "language": "javascript",
+    "encrypt": false
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
 }

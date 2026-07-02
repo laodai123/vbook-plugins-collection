@@ -1,30 +1,30 @@
 {
-    "metadata": {
-        "name": "Mê Truyện Chữ",
-        "author": "QuocBao",
-        "version": 5,
-        "source": "https://metruyenchuvn.com/",
-        "regexp": "(www\\.)?(metruyenchuvn\\.com|metruyenchu\\.com\\.vn)/[^/]+",
-        "description": "Đọc truyện chữ trên Mê Truyện Chữ",
-        "locale": "vi_VN",
-        "language": "javascript",
-        "type": "novel",
-        "encrypt": true
-    },
-    "script": {
-        "home": "home.js",
-        "genre": "genre.js",
-        "detail": "detail.js",
-        "search": "search.js",
-        "toc": "toc.js",
-        "chap": "chap.js"
-    },
-    "config": {
-        "CONFIG_URL": {
-            "title": "Mê Truyện Chữ domain",
-            "mode": "input",
-            "format": "text",
-            "default": "https://metruyenchuvn.com"
-        }
+  "metadata": {
+    "name": "Mê Truyện Chữ +1",
+    "author": "QuocBao",
+    "version": 5,
+    "source": "https://metruyenchuvn.com/",
+    "regexp": "(www\\.)?(metruyenchuvn\\.com|metruyenchu\\.com\\.vn)/[^/]+",
+    "description": "Đọc truyện chữ trên Mê Truyện Chữ",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "CONFIG_URL": {
+      "title": "Mê Truyện Chữ domain",
+      "mode": "input",
+      "format": "text",
+      "default": "https://metruyenchuvn.com"
     }
+  }
 }

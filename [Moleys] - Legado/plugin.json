@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "Legado",
+    "name": "Legado +1",
     "author": "Moleys",
     "version": 16,
     "source": "https://github.com/gedoor/legado",
@@ -18,11 +18,11 @@
     "chap": "chap.js"
   },
   "config": {
-  "host": {
-    "title": "Host Legado",
-    "mode": "input",
-    "format": "text",
-    "default": "http://localhost:1122"
+    "host": {
+      "title": "Host Legado",
+      "mode": "input",
+      "format": "text",
+      "default": "http://localhost:1122"
+    }
   }
-}
 }

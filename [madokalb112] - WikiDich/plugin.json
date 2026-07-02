@@ -1,23 +1,23 @@
 {
-    "metadata":  {
-                     "name":  "WikiDich",
-                     "author":  "madokalb112",
-                     "version":  1,
-                     "source":  "https://wikidich.com.vn",
-                     "regexp":  "(www\\.)?wikidich\\.com\\.vn/[^/?#]+(?:/chuong-[^/?#]+)?/?(?:[?#].*)?$",
-                     "description":  "Doc truyen chu tren WikiDich",
-                     "locale":  "vi_VN",
-                     "language":  "javascript",
-                     "type":  "novel",
-                     "encrypt":  true
-                 },
-    "script":  {
-                   "home":  "home.js",
-                   "genre":  "genre.js",
-                   "detail":  "detail.js",
-                   "search":  "search.js",
-                   "page":  "page.js",
-                   "toc":  "toc.js",
-                   "chap":  "chap.js"
-               }
+  "metadata": {
+    "name": "WikiDich +1",
+    "author": "madokalb112",
+    "version": 1,
+    "source": "https://wikidich.com.vn",
+    "regexp": "(www\\.)?wikidich\\.com\\.vn/[^/?#]+(?:/chuong-[^/?#]+)?/?(?:[?#].*)?$",
+    "description": "Doc truyen chu tren WikiDich",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "page": "page.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
 }

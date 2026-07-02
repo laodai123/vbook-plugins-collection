@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "Truyện hoàn",
+    "name": "Truyện hoàn +1",
     "author": "Vearn",
     "version": 1,
     "source": "https://truyenhoan.com/",
-    "regexp": "^https:\/\/truyenhoan\.com\/[a-zA-Z0-9.-]+\/$",
+    "regexp": "^https:\\/\\/truyenhoan\\.com\\/[a-zA-Z0-9.-]+\\/$",
     "description": "Đọc truyện trên trang https://truyenhoan.com/",
     "locale": "vn_VI",
     "language": "javascript",

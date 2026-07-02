@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "Novest",
+    "name": "Novest +1",
     "author": "HieuDM",
     "version": 1,
     "source": "https://novest.me",
@@ -16,6 +16,6 @@
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js",
-    "gen" : "gen.js"
+    "gen": "gen.js"
   }
 }

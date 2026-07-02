@@ -1,9 +1,11 @@
 {
-  "name": "Dark Mode Helper",
-  "author": "Laodai123",
-  "version": "1",
-  "description": "Tự động áp dụng dark mode cho trang đọc truyện",
-  "locale": "vi_VN",
-  "type": "novel",
-  "language": "javascript"
+  "metadata": {
+    "name": "Dark Mode Helper +1",
+    "author": "Laodai123",
+    "version": "1",
+    "description": "Tự động áp dụng dark mode cho trang đọc truyện",
+    "locale": "vi_VN",
+    "type": "novel",
+    "language": "javascript"
+  }
 }

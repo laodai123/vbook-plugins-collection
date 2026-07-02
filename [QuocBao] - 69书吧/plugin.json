@@ -1,26 +1,26 @@
 {
-    "metadata": {
-        "name": "69书吧",
-        "author": "QuocBao",
-        "version": 2,
-        "source": "https://www.69shuba.com",
-        "regexp": "https?:\\/\\/(?:www\\.)?69shuba\\.com\\/(?:book|txt)\\/[^\\s]+",
-        "description": "Đọc truyện chữ Trung trên 69书吧. Nếu bị Cloudflare/verify chặn, mở trang 69书吧 trong trình duyệt VBook để xác minh.",
-        "locale": "zh_CN",
-        "language": "javascript",
-        "type": "chinese_novel",
-        "encrypt": true
-    },
-    "script": {
-        "home": "home.js",
-        "genre": "genre.js",
-        "search": "search.js",
-        "detail": "detail.js",
-        "toc": "toc.js",
-        "chap": "chap.js"
-    },
-    "config": {
-        "thread_num": 1,
-        "delay": 1000
-    }
+  "metadata": {
+    "name": "69书吧 +1",
+    "author": "QuocBao",
+    "version": 2,
+    "source": "https://www.69shuba.com",
+    "regexp": "https?:\\/\\/(?:www\\.)?69shuba\\.com\\/(?:book|txt)\\/[^\\s]+",
+    "description": "Đọc truyện chữ Trung trên 69书吧. Nếu bị Cloudflare/verify chặn, mở trang 69书吧 trong trình duyệt VBook để xác minh.",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "thread_num": 1,
+    "delay": 1000
+  }
 }

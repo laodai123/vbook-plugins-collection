@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "天悦小说网",
+    "name": "天悦小说网 +1",
     "author": "TuanHai03",
     "version": 1,
     "source": "https://m.xtyxsw.org",
@@ -17,6 +17,6 @@
     "toc": "toc.js",
     "search": "search.js",
     "chap": "chap.js",
-    "page":"page.js"
+    "page": "page.js"
   }
 }

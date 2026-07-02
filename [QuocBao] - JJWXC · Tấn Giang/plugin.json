@@ -1,36 +1,36 @@
 {
-    "metadata": {
-        "name": "JJWXC · Tấn Giang",
-        "author": "QuocBao",
-        "version": 9,
-        "source": "jjwxc.net",
-        "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
-        "description": "Đọc truyện trên app JJWXC. ",
-        "locale": "zh_CN",
-        "language": "javascript",
-        "type": "chinese_novel",
-        "encrypt": true
+  "metadata": {
+    "name": "JJWXC · Tấn Giang +1",
+    "author": "QuocBao",
+    "version": 9,
+    "source": "jjwxc.net",
+    "regexp": "(www.|my.|m.)?jjwxc.net/(onebook|book2)(.*?)",
+    "description": "Đọc truyện trên app JJWXC. ",
+    "locale": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel",
+    "encrypt": true
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "genre": "genre.js",
+    "search": "search.js",
+    "chap": "chap.js"
+  },
+  "config": {
+    "token": {
+      "title": "JJWXC Token / Sign",
+      "mode": "input",
+      "format": "text",
+      "default": ""
     },
-    "script": {
-        "home": "home.js",
-        "detail": "detail.js",
-        "toc": "toc.js",
-        "genre": "genre.js",
-        "search": "search.js",
-        "chap": "chap.js"
-    },
-    "config": {
-        "token": {
-            "title": "JJWXC Token / Sign",
-            "mode": "input",
-            "format": "text",
-            "default": ""
-        },
-        "jjwxcUserKey": {
-            "title": "JJWXC User Key",
-            "mode": "input",
-            "format": "text",
-            "default": ""
-        }
+    "jjwxcUserKey": {
+      "title": "JJWXC User Key",
+      "mode": "input",
+      "format": "text",
+      "default": ""
     }
+  }
 }
