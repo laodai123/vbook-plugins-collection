@@ -2,7 +2,7 @@
   "metadata": {
     "id": "25664fb2-8a4f-4412-9df1-3ed0d83737c4",
     "slug": "vbook-be121d89",
-    "name": "full truyện chữ",
+    "name": "full truyện chữ +1",
     "author": "ming",
     "description": "tất cả nguồn truyện chữ",
     "owner_id": null,
@@ -15,7 +15,7 @@
   },
   "data": [
     {
-      "name": "VBook All-in-One",
+      "name": "VBook All-in-One +1",
       "author": "Laodai123",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/%5BLaodai123%5D%20-%20VBook%20All-in-One/%5BLaodai123%5D%20-%20VBook%20All-in-One.zip",
       "version": 1,
@@ -26,7 +26,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Bạch Ngọc Sách",
+      "name": "Bạch Ngọc Sách +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Bạch Ngọc Sách/[vBook] - Bạch Ngọc Sách.zip",
       "version": 14,
@@ -37,7 +37,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Full",
+      "name": "Truyện Full +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Truyện Full/[vBook] - Truyện Full.zip",
       "version": 12,
@@ -48,7 +48,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện TR",
+      "name": "Truyện TR +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Truyện TR/[vBook] - Truyện TR.zip",
       "version": 6,
@@ -59,7 +59,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Wiki Dịch",
+      "name": "Wiki Dịch +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Wiki Dịch/[vBook] - Wiki Dịch.zip",
       "version": 25,
@@ -70,7 +70,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "[APP] Wikidich",
+      "name": "[APP] Wikidich +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - [APP] Wikidich/[vBook] - [APP] Wikidich.zip",
       "version": 4,
@@ -81,7 +81,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Wattpad",
+      "name": "Wattpad +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Wattpad/[vBook] - Wattpad.zip",
       "version": 3,
@@ -92,7 +92,7 @@
       "locale": "vi"
     },
     {
-      "name": "D Truyện",
+      "name": "D Truyện +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - D Truyện/[vBook] - D Truyện.zip",
       "version": 6,
@@ -103,7 +103,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Hako Novel",
+      "name": "Hako Novel +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Hako Novel/[vBook] - Hako Novel.zip",
       "version": 12,
@@ -114,7 +114,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Thích Đọc Truyện",
+      "name": "Thích Đọc Truyện +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Thích Đọc Truyện/[vBook] - Thích Đọc Truyện.zip",
       "version": 7,
@@ -125,7 +125,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Sàn Truyện",
+      "name": "Sàn Truyện +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Sàn Truyện/[vBook] - Sàn Truyện.zip",
       "version": 2,
@@ -136,7 +136,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyệnHD",
+      "name": "TruyệnHD +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - TruyệnHD/[vBook] - TruyệnHD.zip",
       "version": 14,
@@ -147,7 +147,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MTC",
+      "name": "MTC +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - MTC/[vBook] - MTC.zip",
       "version": 50,
@@ -158,7 +158,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "iSach",
+      "name": "iSach +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - iSach/[vBook] - iSach.zip",
       "version": 2,
@@ -169,7 +169,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Luvevaland",
+      "name": "Luvevaland +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Luvevaland/[vBook] - Luvevaland.zip",
       "version": 4,
@@ -180,7 +180,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyenHayVN",
+      "name": "TruyenHayVN +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - TruyenHayVN/[vBook] - TruyenHayVN.zip",
       "version": 3,
@@ -191,7 +191,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyệnCV",
+      "name": "TruyệnCV +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - TruyệnCV/[vBook] - TruyệnCV.zip",
       "version": 1,
@@ -202,7 +202,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Bàn Long",
+      "name": "Bàn Long +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Bàn Long/[vBook] - Bàn Long.zip",
       "version": 7,
@@ -213,7 +213,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyenNet",
+      "name": "TruyenNet +1",
       "author": "ToanTNM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ToanTNM] - TruyenNet/[ToanTNM] - TruyenNet.zip",
       "version": 1,
@@ -224,7 +224,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "gongzicp",
+      "name": "gongzicp +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - gongzicp/[vBook] - gongzicp.zip",
       "version": 1,
@@ -235,7 +235,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "shubl",
+      "name": "shubl +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - shubl/[vBook] - shubl.zip",
       "version": 1,
@@ -246,7 +246,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ixunshu",
+      "name": "ixunshu +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - ixunshu/[vBook] - ixunshu.zip",
       "version": 1,
@@ -257,7 +257,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "LightNovel VN",
+      "name": "LightNovel VN +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - LightNovel VN/[Nhocconsr] - LightNovel VN.zip",
       "version": 5,
@@ -268,7 +268,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MonkeyD VN",
+      "name": "MonkeyD VN +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - MonkeyD VN/[Nhocconsr] - MonkeyD VN.zip",
       "version": 6,
@@ -279,7 +279,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "123 Truyện",
+      "name": "123 Truyện +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - 123 Truyện/[Nhocconsr] - 123 Truyện.zip",
       "version": 14,
@@ -290,7 +290,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tiên Vực",
+      "name": "Tiên Vực +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Tiên Vực/[Nhocconsr] - Tiên Vực.zip",
       "version": 13,
@@ -301,7 +301,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Convert",
+      "name": "Truyện Convert +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Truyện Convert/[Nhocconsr] - Truyện Convert.zip",
       "version": 3,
@@ -312,7 +312,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Đọc Sách Hay",
+      "name": "Đọc Sách Hay +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Đọc Sách Hay/[Nhocconsr] - Đọc Sách Hay.zip",
       "version": 1,
@@ -323,7 +323,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Giáng Thế",
+      "name": "Giáng Thế +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Giáng Thế/[Nhocconsr] - Giáng Thế.zip",
       "version": 3,
@@ -334,7 +334,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Hố Truyện",
+      "name": "Hố Truyện +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Hố Truyện/[Nhocconsr] - Hố Truyện.zip",
       "version": 5,
@@ -345,7 +345,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Zing Truyện",
+      "name": "Zing Truyện +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Zing Truyện/[Nhocconsr] - Zing Truyện.zip",
       "version": 7,
@@ -356,7 +356,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ST Truyện",
+      "name": "ST Truyện +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - ST Truyện/[Nhocconsr] - ST Truyện.zip",
       "version": 7,
@@ -367,7 +367,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Qimao",
+      "name": "Qimao +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Qimao/[Nhocconsr] - Qimao.zip",
       "version": 2,
@@ -378,7 +378,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Hetushu 和图书",
+      "name": "Hetushu 和图书 +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Hetushu 和图书/[Nhocconsr] - Hetushu 和图书.zip",
       "version": 2,
@@ -389,7 +389,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Book QQ",
+      "name": "Book QQ +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Book QQ/[Nhocconsr] - Book QQ.zip",
       "version": 1,
@@ -400,7 +400,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Myrics",
+      "name": "Myrics +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - Myrics/[Nhocconsr] - Myrics.zip",
       "version": 1,
@@ -411,7 +411,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "20xs",
+      "name": "20xs +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - 20xs/[Nhocconsr] - 20xs.zip",
       "version": 3,
@@ -422,7 +422,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "trxsme",
+      "name": "trxsme +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - trxsme/[Moleys] - trxsme.zip",
       "version": 1,
@@ -433,7 +433,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biqugeabc",
+      "name": "biqugeabc +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - biqugeabc/[Moleys] - biqugeabc.zip",
       "version": 5,
@@ -444,7 +444,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "uuksorg",
+      "name": "uuksorg +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - uuksorg/[Moleys] - uuksorg.zip",
       "version": 1,
@@ -455,7 +455,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "wenku8 📖🔑",
+      "name": "wenku8 📖🔑 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - wenku8 📖🔑/[Moleys] - wenku8 📖🔑.zip",
       "version": 7,
@@ -466,7 +466,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "mengyuanshucheng",
+      "name": "mengyuanshucheng +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - mengyuanshucheng/[Moleys] - mengyuanshucheng.zip",
       "version": 3,
@@ -477,7 +477,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "tongrenquan",
+      "name": "tongrenquan +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - tongrenquan/[Moleys] - tongrenquan.zip",
       "version": 1,
@@ -488,7 +488,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "bixiange",
+      "name": "bixiange +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - bixiange/[Moleys] - bixiange.zip",
       "version": 5,
@@ -499,7 +499,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ijjxs",
+      "name": "ijjxs +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - ijjxs/[Moleys] - ijjxs.zip",
       "version": 1,
@@ -510,7 +510,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "nhasachmienphi 📚",
+      "name": "nhasachmienphi 📚 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - nhasachmienphi 📚/[Moleys] - nhasachmienphi 📚.zip",
       "version": 4,
@@ -521,7 +521,7 @@
       "locale": "vi-VN"
     },
     {
-      "name": "qbtr",
+      "name": "qbtr +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - qbtr/[Moleys] - qbtr.zip",
       "version": 1,
@@ -532,7 +532,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ffxs8",
+      "name": "ffxs8 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - ffxs8/[Moleys] - ffxs8.zip",
       "version": 1,
@@ -543,7 +543,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "haitang16",
+      "name": "haitang16 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - haitang16/[Moleys] - haitang16.zip",
       "version": 2,
@@ -554,7 +554,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "txt520",
+      "name": "txt520 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - txt520/[Moleys] - txt520.zip",
       "version": 2,
@@ -565,7 +565,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "piaoyuxuan",
+      "name": "piaoyuxuan +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - piaoyuxuan/[Moleys] - piaoyuxuan.zip",
       "version": 2,
@@ -576,7 +576,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "jpxs123",
+      "name": "jpxs123 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - jpxs123/[Moleys] - jpxs123.zip",
       "version": 2,
@@ -587,7 +587,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "shumilou",
+      "name": "shumilou +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - shumilou/[Moleys] - shumilou.zip",
       "version": 3,
@@ -598,7 +598,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Sfacg 💰",
+      "name": "Sfacg 💰 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - Sfacg 💰/[Moleys] - Sfacg 💰.zip",
       "version": 2,
@@ -609,7 +609,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "fuxsb 👨‍❤️‍👨👩‍❤️‍👩",
+      "name": "fuxsb 👨‍❤️‍👨👩‍❤️‍👩 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - fuxsb 👨‍❤️‍👨👩‍❤️‍👩/[Moleys] - fuxsb 👨‍❤️‍👨👩‍❤️‍👩.zip",
       "version": 7,
@@ -620,7 +620,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "52shuku",
+      "name": "52shuku +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - 52shuku/[Moleys] - 52shuku.zip",
       "version": 11,
@@ -631,7 +631,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "shencou 📖",
+      "name": "shencou 📖 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - shencou 📖/[Moleys] - shencou 📖.zip",
       "version": 1,
@@ -642,7 +642,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "masiro 📖🔑",
+      "name": "masiro 📖🔑 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - masiro 📖🔑/[Moleys] - masiro 📖🔑.zip",
       "version": 2,
@@ -653,7 +653,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "yazhouse8",
+      "name": "yazhouse8 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - yazhouse8/[Moleys] - yazhouse8.zip",
       "version": 1,
@@ -664,7 +664,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "sjks88",
+      "name": "sjks88 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - sjks88/[Moleys] - sjks88.zip",
       "version": 1,
@@ -675,7 +675,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "powanjuan",
+      "name": "powanjuan +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - powanjuan/[Moleys] - powanjuan.zip",
       "version": 1,
@@ -686,7 +686,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "aixdzs",
+      "name": "aixdzs +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - aixdzs/[Moleys] - aixdzs.zip",
       "version": 1,
@@ -697,7 +697,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "po18gv",
+      "name": "po18gv +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - po18gv/[Moleys] - po18gv.zip",
       "version": 1,
@@ -708,7 +708,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "readwn",
+      "name": "readwn +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - readwn/[Moleys] - readwn.zip",
       "version": 1,
@@ -719,7 +719,7 @@
       "locale": "en_US"
     },
     {
-      "name": "html5.qq.com",
+      "name": "html5.qq.com +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - html5.qq.com/[Moleys] - html5.qq.com.zip",
       "version": 8,
@@ -730,7 +730,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Legado",
+      "name": "Legado +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - Legado/[Moleys] - Legado.zip",
       "version": 16,
@@ -741,7 +741,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "po18",
+      "name": "po18 +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - po18/[Moleys] - po18.zip",
       "version": 1,
@@ -752,7 +752,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "pixiv",
+      "name": "pixiv +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - pixiv/[Moleys] - pixiv.zip",
       "version": 4,
@@ -763,7 +763,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "shuhaige",
+      "name": "shuhaige +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - shuhaige/[Moleys] - shuhaige.zip",
       "version": 3,
@@ -774,7 +774,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Elysia",
+      "name": "Elysia +1",
       "author": "Moleys",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Moleys] - Elysia/[Moleys] - Elysia.zip",
       "version": 8,
@@ -785,7 +785,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "123ds",
+      "name": "123ds +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - 123ds/[B] - 123ds.zip",
       "version": 3,
@@ -796,7 +796,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "18mh",
+      "name": "18mh +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - 18mh/[B] - 18mh.zip",
       "version": 3,
@@ -807,7 +807,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "5in1",
+      "name": "5in1 +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - 5in1/[B] - 5in1.zip",
       "version": 70,
@@ -818,7 +818,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "60ks",
+      "name": "60ks +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - 60ks/[B] - 60ks.zip",
       "version": 2,
@@ -829,7 +829,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "82zw",
+      "name": "82zw +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - 82zw/[B] - 82zw.zip",
       "version": 2,
@@ -840,7 +840,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "8xsk",
+      "name": "8xsk +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - 8xsk/[B] - 8xsk.zip",
       "version": 1,
@@ -851,7 +851,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Kỳ huyễn",
+      "name": "Kỳ huyễn +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - Kỳ huyễn/[B] - Kỳ huyễn.zip",
       "version": 1,
@@ -862,7 +862,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Trùm Truyện",
+      "name": "Trùm Truyện +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - Trùm Truyện/[B] - Trùm Truyện.zip",
       "version": 5,
@@ -873,7 +873,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "[Review] tuishujun 💬",
+      "name": "[Review] tuishujun 💬 +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - [Review] tuishujun 💬/[B] - [Review] tuishujun 💬.zip",
       "version": 1,
@@ -884,7 +884,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "akaytruyen",
+      "name": "akaytruyen +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - akaytruyen/[B] - akaytruyen.zip",
       "version": 1,
@@ -895,7 +895,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "alicesw",
+      "name": "alicesw +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - alicesw/[B] - alicesw.zip",
       "version": 12,
@@ -906,7 +906,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ddxs",
+      "name": "ddxs +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - ddxs/[B] - ddxs.zip",
       "version": 4,
@@ -917,7 +917,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Đọc Truyện 14",
+      "name": "Đọc Truyện 14 +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - Đọc Truyện 14/[B] - Đọc Truyện 14.zip",
       "version": 7,
@@ -928,7 +928,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "kanshuwu",
+      "name": "kanshuwu +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - kanshuwu/[B] - kanshuwu.zip",
       "version": 1,
@@ -939,7 +939,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "kanunu8",
+      "name": "kanunu8 +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - kanunu8/[B] - kanunu8.zip",
       "version": 4,
@@ -950,7 +950,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Kho Truyện Chữ",
+      "name": "Kho Truyện Chữ +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - Kho Truyện Chữ/[B] - Kho Truyện Chữ.zip",
       "version": 7,
@@ -961,7 +961,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "lohi2",
+      "name": "lohi2 +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - lohi2/[B] - lohi2.zip",
       "version": 1,
@@ -972,7 +972,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "nhatruyen",
+      "name": "nhatruyen +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - nhatruyen/[B] - nhatruyen.zip",
       "version": 8,
@@ -983,7 +983,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ntruyen",
+      "name": "ntruyen +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - ntruyen/[B] - ntruyen.zip",
       "version": 13,
@@ -994,7 +994,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ptwxzOrg",
+      "name": "ptwxzOrg +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - ptwxzOrg/[B] - ptwxzOrg.zip",
       "version": 3,
@@ -1005,7 +1005,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "nhieutruyen (qidian-vp)",
+      "name": "nhieutruyen (qidian-vp) +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - nhieutruyen (qidian-vp)/[B] - nhieutruyen (qidian-vp).zip",
       "version": 12,
@@ -1016,7 +1016,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "qubook",
+      "name": "qubook +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - qubook/[B] - qubook.zip",
       "version": 2,
@@ -1027,7 +1027,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "ranwen",
+      "name": "ranwen +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - ranwen/[B] - ranwen.zip",
       "version": 3,
@@ -1038,7 +1038,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "shushuwuxs",
+      "name": "shushuwuxs +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - shushuwuxs/[B] - shushuwuxs.zip",
       "version": 1,
@@ -1049,7 +1049,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Tàng Thư Viện [APP]",
+      "name": "Tàng Thư Viện [APP] +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - Tàng Thư Viện [APP]/[B] - Tàng Thư Viện [APP].zip",
       "version": 2,
@@ -1060,7 +1060,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyendich.vn",
+      "name": "truyendich.vn +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - truyendich.vn/[B] - truyendich.vn.zip",
       "version": 3,
@@ -1071,7 +1071,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyenchuth",
+      "name": "truyenchuth +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - truyenchuth/[B] - truyenchuth.zip",
       "version": 1,
@@ -1082,7 +1082,7 @@
       "locale": "vi"
     },
     {
-      "name": "Truyen CodeTheoYeuCau",
+      "name": "Truyen CodeTheoYeuCau +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - Truyen CodeTheoYeuCau/[B] - Truyen CodeTheoYeuCau.zip",
       "version": 1,
@@ -1093,7 +1093,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyendocviet",
+      "name": "truyendocviet +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - truyendocviet/[B] - truyendocviet.zip",
       "version": 2,
@@ -1104,7 +1104,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyenheo",
+      "name": "truyenheo +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - truyenheo/[B] - truyenheo.zip",
       "version": 19,
@@ -1115,7 +1115,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "twkan",
+      "name": "twkan +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - twkan/[B] - twkan.zip",
       "version": 3,
@@ -1126,7 +1126,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "uushuk",
+      "name": "uushuk +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - uushuk/[B] - uushuk.zip",
       "version": 1,
@@ -1137,7 +1137,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "xinyushuwu",
+      "name": "xinyushuwu +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - xinyushuwu/[B] - xinyushuwu.zip",
       "version": 5,
@@ -1148,7 +1148,7 @@
       "locale": "vi-VN"
     },
     {
-      "name": "xyushu5",
+      "name": "xyushu5 +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - xyushu5/[B] - xyushu5.zip",
       "version": 3,
@@ -1159,7 +1159,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "zhenhunxiaoshuo",
+      "name": "zhenhunxiaoshuo +1",
       "author": "B",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[B] - zhenhunxiaoshuo/[B] - zhenhunxiaoshuo.zip",
       "version": 1,
@@ -1170,7 +1170,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Fanqienovel - LV",
+      "name": "Fanqienovel - LV +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Fanqienovel - LV/[Nahona] - Fanqienovel - LV.zip",
       "version": 4,
@@ -1181,7 +1181,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "AAHHSS",
+      "name": "AAHHSS +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - AAHHSS/[Nahona] - AAHHSS.zip",
       "version": 3,
@@ -1192,7 +1192,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "4ksw",
+      "name": "4ksw +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 4ksw/[Nahona] - 4ksw.zip",
       "version": 1,
@@ -1203,7 +1203,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Xiaoshubao",
+      "name": "Xiaoshubao +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Xiaoshubao/[Nahona] - Xiaoshubao.zip",
       "version": 1,
@@ -1214,7 +1214,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Mê Truyện Chữ VN",
+      "name": "Mê Truyện Chữ VN +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Mê Truyện Chữ VN/[Nahona] - Mê Truyện Chữ VN.zip",
       "version": 5,
@@ -1225,7 +1225,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Zing Truyện",
+      "name": "Zing Truyện +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Zing Truyện/[Nahona] - Zing Truyện.zip",
       "version": 1,
@@ -1236,7 +1236,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Đọc Truyện Full",
+      "name": "Đọc Truyện Full +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Đọc Truyện Full/[Nahona] - Đọc Truyện Full.zip",
       "version": 1,
@@ -1247,7 +1247,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Chất Xám",
+      "name": "Chất Xám +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Chất Xám/[Nahona] - Chất Xám.zip",
       "version": 1,
@@ -1258,7 +1258,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "99csw",
+      "name": "99csw +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 99csw/[Nahona] - 99csw.zip",
       "version": 1,
@@ -1269,7 +1269,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biqugezz",
+      "name": "biqugezz +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - biqugezz/[Nahona] - biqugezz.zip",
       "version": 1,
@@ -1280,7 +1280,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "h528",
+      "name": "h528 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - h528/[Nahona] - h528.zip",
       "version": 1,
@@ -1291,7 +1291,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Truyện 35",
+      "name": "Truyện 35 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Truyện 35/[Nahona] - Truyện 35.zip",
       "version": 2,
@@ -1302,7 +1302,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "sinodan",
+      "name": "sinodan +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - sinodan/[Nahona] - sinodan.zip",
       "version": 2,
@@ -1313,7 +1313,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "meiguicom",
+      "name": "meiguicom +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - meiguicom/[Nahona] - meiguicom.zip",
       "version": 1,
@@ -1324,7 +1324,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "lwxs",
+      "name": "lwxs +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - lwxs/[Nahona] - lwxs.zip",
       "version": 2,
@@ -1335,7 +1335,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ixdzs8",
+      "name": "ixdzs8 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - ixdzs8/[Nahona] - ixdzs8.zip",
       "version": 5,
@@ -1346,7 +1346,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[Main]Tamlinh247",
+      "name": "[Main]Tamlinh247 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - [Main]Tamlinh247/[Nahona] - [Main]Tamlinh247.zip",
       "version": 1,
@@ -1357,7 +1357,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "douyinxs",
+      "name": "douyinxs +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - douyinxs/[Nahona] - douyinxs.zip",
       "version": 1,
@@ -1368,7 +1368,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "8383zw",
+      "name": "8383zw +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 8383zw/[Nahona] - 8383zw.zip",
       "version": 1,
@@ -1379,7 +1379,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "pi12345",
+      "name": "pi12345 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - pi12345/[Nahona] - pi12345.zip",
       "version": 1,
@@ -1390,7 +1390,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Uaa",
+      "name": "Uaa +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Uaa/[Nahona] - Uaa.zip",
       "version": 6,
@@ -1401,7 +1401,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "2shuquge",
+      "name": "2shuquge +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 2shuquge/[Nahona] - 2shuquge.zip",
       "version": 1,
@@ -1412,7 +1412,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "200669[API - 9x|BTC]",
+      "name": "200669[API - 9x|BTC] +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 200669[API - 9x_BTC]/[Nahona] - 200669[API - 9x_BTC].zip",
       "version": 2,
@@ -1423,7 +1423,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biquxs",
+      "name": "biquxs +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - biquxs/[Nahona] - biquxs.zip",
       "version": 1,
@@ -1434,7 +1434,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "xiaojiaren",
+      "name": "xiaojiaren +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - xiaojiaren/[Nahona] - xiaojiaren.zip",
       "version": 2,
@@ -1445,7 +1445,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "diyi69",
+      "name": "diyi69 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - diyi69/[Nahona] - diyi69.zip",
       "version": 1,
@@ -1456,7 +1456,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "iqushuwang",
+      "name": "iqushuwang +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - iqushuwang/[Nahona] - iqushuwang.zip",
       "version": 1,
@@ -1467,7 +1467,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "18biquge",
+      "name": "18biquge +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 18biquge/[Nahona] - 18biquge.zip",
       "version": 2,
@@ -1478,7 +1478,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "rourouwu",
+      "name": "rourouwu +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - rourouwu/[Nahona] - rourouwu.zip",
       "version": 2,
@@ -1489,7 +1489,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "book18",
+      "name": "book18 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - book18/[Nahona] - book18.zip",
       "version": 3,
@@ -1500,7 +1500,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "bqg9527",
+      "name": "bqg9527 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - bqg9527/[Nahona] - bqg9527.zip",
       "version": 1,
@@ -1511,7 +1511,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "22mt",
+      "name": "22mt +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 22mt/[Nahona] - 22mt.zip",
       "version": 1,
@@ -1522,7 +1522,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "hlzjc",
+      "name": "hlzjc +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - hlzjc/[Nahona] - hlzjc.zip",
       "version": 1,
@@ -1533,7 +1533,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "xiongmaoxy",
+      "name": "xiongmaoxy +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - xiongmaoxy/[Nahona] - xiongmaoxy.zip",
       "version": 1,
@@ -1544,7 +1544,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "168txt",
+      "name": "168txt +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 168txt/[Nahona] - 168txt.zip",
       "version": 1,
@@ -1555,7 +1555,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Tâm Linh 247",
+      "name": "Tâm Linh 247 +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - Tâm Linh 247/[Nahona] - Tâm Linh 247.zip",
       "version": 3,
@@ -1566,7 +1566,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "3qzone",
+      "name": "3qzone +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 3qzone/[Nahona] - 3qzone.zip",
       "version": 1,
@@ -1577,7 +1577,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "damixs",
+      "name": "damixs +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - damixs/[Nahona] - damixs.zip",
       "version": 1,
@@ -1588,7 +1588,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "vvbiquge",
+      "name": "vvbiquge +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - vvbiquge/[Nahona] - vvbiquge.zip",
       "version": 1,
@@ -1599,7 +1599,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "bqgma",
+      "name": "bqgma +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - bqgma/[Nahona] - bqgma.zip",
       "version": 1,
@@ -1610,7 +1610,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "81cnw",
+      "name": "81cnw +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 81cnw/[Nahona] - 81cnw.zip",
       "version": 2,
@@ -1621,7 +1621,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "94yd",
+      "name": "94yd +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 94yd/[Nahona] - 94yd.zip",
       "version": 1,
@@ -1632,7 +1632,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "99txs",
+      "name": "99txs +1",
       "author": "Nahona",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nahona] - 99txs/[Nahona] - 99txs.zip",
       "version": 1,
@@ -1643,7 +1643,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Uaa",
+      "name": "Uaa +1",
       "author": "hieu05",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hieu05] - Uaa/[hieu05] - Uaa.zip",
       "version": 2,
@@ -1654,7 +1654,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "alicesw",
+      "name": "alicesw +1",
       "author": "hieu05",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hieu05] - alicesw/[hieu05] - alicesw.zip",
       "version": 1,
@@ -1665,7 +1665,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Cool18 Novel",
+      "name": "Cool18 Novel +1",
       "author": "hieu05",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hieu05] - Cool18 Novel/[hieu05] - Cool18 Novel.zip",
       "version": 1,
@@ -1676,7 +1676,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "CRXS",
+      "name": "CRXS +1",
       "author": "hieu05",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hieu05] - CRXS/[hieu05] - CRXS.zip",
       "version": 1,
@@ -1687,7 +1687,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "TruyenDich.AI",
+      "name": "TruyenDich.AI +1",
       "author": "hieu05",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hieu05] - TruyenDich.AI/[hieu05] - TruyenDich.AI.zip",
       "version": 3,
@@ -1698,7 +1698,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ZumiNovel",
+      "name": "ZumiNovel +1",
       "author": "hieu05",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hieu05] - ZumiNovel/[hieu05] - ZumiNovel.zip",
       "version": 3,
@@ -1709,7 +1709,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "[dmxs]耽美小说",
+      "name": "[dmxs]耽美小说 +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - [dmxs]耽美小说/[QuocBao] - [dmxs]耽美小说.zip",
       "version": 2,
@@ -1720,7 +1720,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[APP] Zhihu Hỏi đáp",
+      "name": "[APP] Zhihu Hỏi đáp +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - [APP] Zhihu Hỏi đáp/[QuocBao] - [APP] Zhihu Hỏi đáp.zip",
       "version": 6,
@@ -1731,7 +1731,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "[APP] TYT",
+      "name": "[APP] TYT +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - [APP] TYT/[QuocBao] - [APP] TYT.zip",
       "version": 8,
@@ -1742,7 +1742,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "[APP] QQ阅读",
+      "name": "[APP] QQ阅读 +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - [APP] QQ阅读/[QuocBao] - [APP] QQ阅读.zip",
       "version": 3,
@@ -1753,7 +1753,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Gấu Mèo Team",
+      "name": "Gấu Mèo Team +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Gấu Mèo Team/[QuocBao] - Gấu Mèo Team.zip",
       "version": 1,
@@ -1764,7 +1764,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Wattpad",
+      "name": "Wattpad +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Wattpad/[QuocBao] - Wattpad.zip",
       "version": 2,
@@ -1775,7 +1775,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "BL Bất Tử",
+      "name": "BL Bất Tử +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - BL Bất Tử/[QuocBao] - BL Bất Tử.zip",
       "version": 1,
@@ -1786,7 +1786,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Boylove Bất Tử",
+      "name": "Boylove Bất Tử +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Boylove Bất Tử/[QuocBao] - Boylove Bất Tử.zip",
       "version": 3,
@@ -1797,7 +1797,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MangaDM",
+      "name": "MangaDM +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - MangaDM/[QuocBao] - MangaDM.zip",
       "version": 1,
@@ -1808,7 +1808,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "po18",
+      "name": "po18 +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - po18/[QuocBao] - po18.zip",
       "version": 10,
@@ -1819,7 +1819,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Trang Truyện",
+      "name": "Trang Truyện +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Trang Truyện/[QuocBao] - Trang Truyện.zip",
       "version": 5,
@@ -1830,7 +1830,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "JJWXC · Tấn Giang",
+      "name": "JJWXC · Tấn Giang +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - JJWXC · Tấn Giang/[QuocBao] - JJWXC · Tấn Giang.zip",
       "version": 9,
@@ -1841,7 +1841,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Minttea Novel",
+      "name": "Minttea Novel +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Minttea Novel/[QuocBao] - Minttea Novel.zip",
       "version": 1,
@@ -1852,7 +1852,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "STV App Vi",
+      "name": "STV App Vi +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - STV App Vi/[QuocBao] - STV App Vi.zip",
       "version": 6,
@@ -1863,7 +1863,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Navy Team Novel",
+      "name": "Navy Team Novel +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Navy Team Novel/[QuocBao] - Navy Team Novel.zip",
       "version": 7,
@@ -1874,7 +1874,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Truyện Chữ",
+      "name": "Mê Truyện Chữ +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Mê Truyện Chữ/[QuocBao] - Mê Truyện Chữ.zip",
       "version": 5,
@@ -1885,7 +1885,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mọt Truyện",
+      "name": "Mọt Truyện +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Mọt Truyện/[QuocBao] - Mọt Truyện.zip",
       "version": 1,
@@ -1896,7 +1896,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "La cà truyện",
+      "name": "La cà truyện +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - La cà truyện/[QuocBao] - La cà truyện.zip",
       "version": 19,
@@ -1907,7 +1907,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Xianqihaotiami APP",
+      "name": "Xianqihaotiami APP +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Xianqihaotiami APP/[QuocBao] - Xianqihaotiami APP.zip",
       "version": 2,
@@ -1918,7 +1918,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Tushumi",
+      "name": "Tushumi +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - Tushumi/[QuocBao] - Tushumi.zip",
       "version": 3,
@@ -1929,7 +1929,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "256wx",
+      "name": "256wx +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - 256wx/[QuocBao] - 256wx.zip",
       "version": 1,
@@ -1940,7 +1940,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ixdzs",
+      "name": "ixdzs +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - ixdzs/[QuocBao] - ixdzs.zip",
       "version": 1,
@@ -1951,7 +1951,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69书吧",
+      "name": "69书吧 +1",
       "author": "QuocBao",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[QuocBao] - 69书吧/[QuocBao] - 69书吧.zip",
       "version": 2,
@@ -1962,7 +1962,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Truyện đề xuất",
+      "name": "Truyện đề xuất +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Truyện đề xuất/[Đường đen] - Truyện đề xuất.zip",
       "version": 1,
@@ -1973,7 +1973,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện TV",
+      "name": "Truyện TV +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Truyện TV/[Đường đen] - Truyện TV.zip",
       "version": 1,
@@ -1984,7 +1984,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Ổ của Dưa",
+      "name": "Ổ của Dưa +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Ổ của Dưa/[Đường đen] - Ổ của Dưa.zip",
       "version": 1,
@@ -1995,7 +1995,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "truyenfull",
+      "name": "truyenfull +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - truyenfull/[vBook] - truyenfull.zip",
       "version": 12,
@@ -2006,7 +2006,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Xbanxia - repo Đường đen",
+      "name": "Xbanxia - repo Đường đen +1",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bexom] - Xbanxia - repo Đường đen/[bexom] - Xbanxia - repo Đường đen.zip",
       "version": 5,
@@ -2017,7 +2017,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "quanben - repo Đường đen",
+      "name": "quanben - repo Đường đen +1",
       "author": "hajljnopera",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[hajljnopera] - quanben - repo Đường đen/[hajljnopera] - quanben - repo Đường đen.zip",
       "version": 4,
@@ -2028,7 +2028,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "uuxs.com - repo Đường đen",
+      "name": "uuxs.com - repo Đường đen +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - uuxs.com - repo Đường đen/[Đường đen] - uuxs.com - repo Đường đen.zip",
       "version": 1,
@@ -2039,7 +2039,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "czbooks - repo Đường đen",
+      "name": "czbooks - repo Đường đen +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - czbooks - repo Đường đen/[Đường đen] - czbooks - repo Đường đen.zip",
       "version": 3,
@@ -2050,7 +2050,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "deqixs",
+      "name": "deqixs +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - deqixs/[Đường đen] - deqixs.zip",
       "version": 2,
@@ -2061,7 +2061,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "quanwenyuedu",
+      "name": "quanwenyuedu +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - quanwenyuedu/[Đường đen] - quanwenyuedu.zip",
       "version": 2,
@@ -2072,7 +2072,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "qmbook",
+      "name": "qmbook +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - qmbook/[Đường đen] - qmbook.zip",
       "version": 3,
@@ -2083,7 +2083,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "sweetastes",
+      "name": "sweetastes +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - sweetastes/[Đường đen] - sweetastes.zip",
       "version": 3,
@@ -2094,7 +2094,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Weibo",
+      "name": "Weibo +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Weibo/[Đường đen] - Weibo.zip",
       "version": 6,
@@ -2105,7 +2105,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "wodeshucheng5",
+      "name": "wodeshucheng5 +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - wodeshucheng5/[Đường đen] - wodeshucheng5.zip",
       "version": 1,
@@ -2116,7 +2116,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "75zwcom",
+      "name": "75zwcom +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 75zwcom/[Đường đen] - 75zwcom.zip",
       "version": 1,
@@ -2127,7 +2127,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "sudugu",
+      "name": "sudugu +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - sudugu/[Đường đen] - sudugu.zip",
       "version": 7,
@@ -2138,7 +2138,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69shu - repo Đường đen",
+      "name": "69shu - repo Đường đen +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 69shu - repo Đường đen/[Đường đen] - 69shu - repo Đường đen.zip",
       "version": 46,
@@ -2149,7 +2149,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "言情小说阁 (APP)",
+      "name": "言情小说阁 (APP) +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - 言情小说阁 (APP)/[Nhocconsr] - 言情小说阁 (APP).zip",
       "version": 1,
@@ -2160,7 +2160,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Người Lao Động",
+      "name": "Người Lao Động +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Người Lao Động/[Đường đen] - Người Lao Động.zip",
       "version": 3,
@@ -2171,7 +2171,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "vietnamnet",
+      "name": "vietnamnet +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - vietnamnet/[Đường đen] - vietnamnet.zip",
       "version": 3,
@@ -2182,7 +2182,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tuổi Trẻ",
+      "name": "Tuổi Trẻ +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Tuổi Trẻ/[Đường đen] - Tuổi Trẻ.zip",
       "version": 4,
@@ -2193,7 +2193,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "vnexpress",
+      "name": "vnexpress +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - vnexpress/[Đường đen] - vnexpress.zip",
       "version": 4,
@@ -2204,7 +2204,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "soha",
+      "name": "soha +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - soha/[Đường đen] - soha.zip",
       "version": 4,
@@ -2215,7 +2215,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "qimao - repo Đường đen",
+      "name": "qimao - repo Đường đen +1",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Nhocconsr] - qimao - repo Đường đen/[Nhocconsr] - qimao - repo Đường đen.zip",
       "version": 2,
@@ -2226,7 +2226,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "07br",
+      "name": "07br +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 07br/[Đường đen] - 07br.zip",
       "version": 7,
@@ -2237,7 +2237,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "piaotian-app",
+      "name": "piaotian-app +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - piaotian-app/[Đường đen] - piaotian-app.zip",
       "version": 3,
@@ -2248,7 +2248,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "85 Novel",
+      "name": "85 Novel +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 85 Novel/[Đường đen] - 85 Novel.zip",
       "version": 2,
@@ -2259,7 +2259,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69shumi",
+      "name": "69shumi +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 69shumi/[Đường đen] - 69shumi.zip",
       "version": 3,
@@ -2270,7 +2270,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "biqugess",
+      "name": "biqugess +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - biqugess/[Đường đen] - biqugess.zip",
       "version": 1,
@@ -2281,7 +2281,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69hsz",
+      "name": "69hsz +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 69hsz/[Đường đen] - 69hsz.zip",
       "version": 5,
@@ -2292,7 +2292,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "soxscc",
+      "name": "soxscc +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - soxscc/[Đường đen] - soxscc.zip",
       "version": 2,
@@ -2303,7 +2303,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "x33xs4",
+      "name": "x33xs4 +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - x33xs4/[Đường đen] - x33xs4.zip",
       "version": 2,
@@ -2314,7 +2314,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "笔趣阁-abcbiquge",
+      "name": "笔趣阁-abcbiquge +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - 笔趣阁-abcbiquge/[Đường đen] - 笔趣阁-abcbiquge.zip",
       "version": 10,
@@ -2325,7 +2325,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Yêu truyện.online",
+      "name": "Yêu truyện.online +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Yêu truyện.online/[Đường đen] - Yêu truyện.online.zip",
       "version": 1,
@@ -2336,7 +2336,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MonkeyD VN - repo duongden",
+      "name": "MonkeyD VN - repo duongden +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - MonkeyD VN - repo duongden/[Đường đen] - MonkeyD VN - repo duongden.zip",
       "version": 10,
@@ -2347,7 +2347,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Lão phật gia",
+      "name": "Lão phật gia +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Lão phật gia/[Đường đen] - Lão phật gia.zip",
       "version": 1,
@@ -2358,7 +2358,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Com",
+      "name": "Truyện Com +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Truyện Com/[Đường đen] - Truyện Com.zip",
       "version": 2,
@@ -2369,7 +2369,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tinh Linh",
+      "name": "Tinh Linh +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Tinh Linh/[Đường đen] - Tinh Linh.zip",
       "version": 2,
@@ -2380,7 +2380,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Đảo truyện",
+      "name": "Đảo truyện +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Đảo truyện/[Đường đen] - Đảo truyện.zip",
       "version": 2,
@@ -2391,7 +2391,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện mới org",
+      "name": "Truyện mới org +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Truyện mới org/[Đường đen] - Truyện mới org.zip",
       "version": 1,
@@ -2402,7 +2402,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Dịch truyện tự động từ Qidian",
+      "name": "Dịch truyện tự động từ Qidian +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Dịch truyện tự động từ Qidian/[Đường đen] - Dịch truyện tự động từ Qidian.zip",
       "version": 3,
@@ -2413,7 +2413,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ijjjxsxzw",
+      "name": "ijjjxsxzw +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - ijjjxsxzw/[Đường đen] - ijjjxsxzw.zip",
       "version": 6,
@@ -2424,7 +2424,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ebookbao",
+      "name": "ebookbao +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - ebookbao/[Đường đen] - ebookbao.zip",
       "version": 4,
@@ -2435,7 +2435,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Novel Next",
+      "name": "Novel Next +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Novel Next/[Đường đen] - Novel Next.zip",
       "version": 5,
@@ -2446,7 +2446,7 @@
       "locale": "en_US"
     },
     {
-      "name": "Fan MTL",
+      "name": "Fan MTL +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Fan MTL/[Đường đen] - Fan MTL.zip",
       "version": 1,
@@ -2457,7 +2457,7 @@
       "locale": "en_US"
     },
     {
-      "name": "All Novel",
+      "name": "All Novel +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - All Novel/[Đường đen] - All Novel.zip",
       "version": 1,
@@ -2468,7 +2468,7 @@
       "locale": "en_US"
     },
     {
-      "name": "Spiderum",
+      "name": "Spiderum +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Spiderum/[Đường đen] - Spiderum.zip",
       "version": 1,
@@ -2479,7 +2479,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "sohu",
+      "name": "sohu +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - sohu/[Đường đen] - sohu.zip",
       "version": 1,
@@ -2490,7 +2490,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Viblo",
+      "name": "Viblo +1",
       "author": "Đường đen",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Đường đen] - Viblo/[Đường đen] - Viblo.zip",
       "version": 4,
@@ -2501,7 +2501,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TVTruyen",
+      "name": "TVTruyen +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - TVTruyen/[longvuu] - TVTruyen.zip",
       "version": 1,
@@ -2512,7 +2512,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "akaytruyen",
+      "name": "akaytruyen +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - akaytruyen/[longvuu] - akaytruyen.zip",
       "version": 1,
@@ -2523,7 +2523,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "conduongbachu",
+      "name": "conduongbachu +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - conduongbachu/[longvuu] - conduongbachu.zip",
       "version": 2,
@@ -2534,7 +2534,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "metruyenchu",
+      "name": "metruyenchu +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - metruyenchu/[longvuu] - metruyenchu.zip",
       "version": 1,
@@ -2545,7 +2545,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "doctruyen14",
+      "name": "doctruyen14 +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - doctruyen14/[longvuu] - doctruyen14.zip",
       "version": 2,
@@ -2556,7 +2556,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "banlong",
+      "name": "banlong +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - banlong/[longvuu] - banlong.zip",
       "version": 2,
@@ -2567,7 +2567,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "69shuba",
+      "name": "69shuba +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - 69shuba/[longvuu] - 69shuba.zip",
       "version": 1,
@@ -2578,7 +2578,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "AliceSW",
+      "name": "AliceSW +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - AliceSW/[longvuu] - AliceSW.zip",
       "version": 1,
@@ -2589,7 +2589,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "TruyenCom",
+      "name": "TruyenCom +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - TruyenCom/[longvuu] - TruyenCom.zip",
       "version": 1,
@@ -2600,7 +2600,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "wfxs.tw",
+      "name": "wfxs.tw +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - wfxs.tw/[longvuu] - wfxs.tw.zip",
       "version": 1,
@@ -2611,7 +2611,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "shuqi.com",
+      "name": "shuqi.com +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - shuqi.com/[longvuu] - shuqi.com.zip",
       "version": 1,
@@ -2622,7 +2622,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "webtruyendich",
+      "name": "webtruyendich +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - webtruyendich/[longvuu] - webtruyendich.zip",
       "version": 1,
@@ -2633,7 +2633,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "mh18",
+      "name": "mh18 +1",
       "author": "longvuu",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[longvuu] - mh18/[longvuu] - mh18.zip",
       "version": 1,
@@ -2644,7 +2644,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "uukanshu",
+      "name": "uukanshu +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - uukanshu/[TH03] - uukanshu.zip",
       "version": 2,
@@ -2655,7 +2655,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69shu",
+      "name": "69shu +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - 69shu/[TH03] - 69shu.zip",
       "version": 7,
@@ -2666,7 +2666,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "idejian",
+      "name": "idejian +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - idejian/[TH03] - idejian.zip",
       "version": 1,
@@ -2677,7 +2677,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "天悦小说网",
+      "name": "天悦小说网 +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - 天悦小说网/[TH03] - 天悦小说网.zip",
       "version": 1,
@@ -2688,7 +2688,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "fanqieweb",
+      "name": "fanqieweb +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - fanqieweb/[TH03] - fanqieweb.zip",
       "version": 1,
@@ -2699,7 +2699,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Uaa",
+      "name": "Uaa +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - Uaa/[TH03] - Uaa.zip",
       "version": 2,
@@ -2710,7 +2710,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "jwxs",
+      "name": "jwxs +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - jwxs/[TH03] - jwxs.zip",
       "version": 4,
@@ -2721,7 +2721,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69yuedu",
+      "name": "69yuedu +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - 69yuedu/[TH03] - 69yuedu.zip",
       "version": 1,
@@ -2732,7 +2732,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Sáng Tác Việt",
+      "name": "Sáng Tác Việt +1",
       "author": "TH03",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[TH03] - Sáng Tác Việt/[TH03] - Sáng Tác Việt.zip",
       "version": 4,
@@ -2743,7 +2743,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Tiệm Truyện Chữ",
+      "name": "Tiệm Truyện Chữ +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - Tiệm Truyện Chữ/[Will Sun] - Tiệm Truyện Chữ.zip",
       "version": 12,
@@ -2754,7 +2754,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "NetTruyen",
+      "name": "NetTruyen +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - NetTruyen/[Will Sun] - NetTruyen.zip",
       "version": 2,
@@ -2765,7 +2765,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Net",
+      "name": "Truyện Net +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - Truyện Net/[Will Sun] - Truyện Net.zip",
       "version": 3,
@@ -2776,7 +2776,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Dịch AI",
+      "name": "Truyện Dịch AI +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - Truyện Dịch AI/[Will Sun] - Truyện Dịch AI.zip",
       "version": 3,
@@ -2787,7 +2787,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyenCV.io",
+      "name": "TruyenCV.io +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - TruyenCV.io/[Will Sun] - TruyenCV.io.zip",
       "version": 2,
@@ -2798,7 +2798,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Valvrareteam",
+      "name": "Valvrareteam +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - Valvrareteam/[Will Sun] - Valvrareteam.zip",
       "version": 5,
@@ -2809,7 +2809,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Sói Xám (Fanqie)",
+      "name": "Sói Xám (Fanqie) +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - Sói Xám (Fanqie)/[Will Sun] - Sói Xám (Fanqie).zip",
       "version": 19,
@@ -2820,7 +2820,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "po18sm",
+      "name": "po18sm +1",
       "author": "Will Sun",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Will Sun] - po18sm/[Will Sun] - po18sm.zip",
       "version": 4,
@@ -2831,7 +2831,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "drxsw",
+      "name": "drxsw +1",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[3690] - drxsw/[3690] - drxsw.zip",
       "version": 5,
@@ -2842,7 +2842,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "alicesw",
+      "name": "alicesw +1",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[3690] - alicesw/[3690] - alicesw.zip",
       "version": 46,
@@ -2853,7 +2853,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Sinodan",
+      "name": "Sinodan +1",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[3690] - Sinodan/[3690] - Sinodan.zip",
       "version": 17,
@@ -2864,7 +2864,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Wattpad",
+      "name": "Wattpad +1",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[3690] - Wattpad/[3690] - Wattpad.zip",
       "version": 1,
@@ -2875,7 +2875,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MeTruyenChuFake",
+      "name": "MeTruyenChuFake +1",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[3690] - MeTruyenChuFake/[3690] - MeTruyenChuFake.zip",
       "version": 1,
@@ -2886,7 +2886,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện sexTV",
+      "name": "Truyện sexTV +1",
       "author": "3690",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[3690] - Truyện sexTV/[3690] - Truyện sexTV.zip",
       "version": 4,
@@ -2897,7 +2897,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Vozer",
+      "name": "Vozer +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - Vozer/[mizhm] - Vozer.zip",
       "version": 4,
@@ -2908,7 +2908,7 @@
       "locale": "vi-VN"
     },
     {
-      "name": "Truyện dịch miễn phí",
+      "name": "Truyện dịch miễn phí +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - Truyện dịch miễn phí/[mizhm] - Truyện dịch miễn phí.zip",
       "version": 15,
@@ -2919,7 +2919,7 @@
       "locale": "vi-VN"
     },
     {
-      "name": "Cà Chua",
+      "name": "Cà Chua +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - Cà Chua/[mizhm] - Cà Chua.zip",
       "version": 9,
@@ -2930,7 +2930,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "QuyKiep",
+      "name": "QuyKiep +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - QuyKiep/[mizhm] - QuyKiep.zip",
       "version": 1,
@@ -2941,7 +2941,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ihuaben",
+      "name": "ihuaben +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - ihuaben/[mizhm] - ihuaben.zip",
       "version": 3,
@@ -2952,7 +2952,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "truyenfree",
+      "name": "truyenfree +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - truyenfree/[mizhm] - truyenfree.zip",
       "version": 2,
@@ -2963,7 +2963,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyen Now",
+      "name": "Truyen Now +1",
       "author": "mizhm",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[mizhm] - Truyen Now/[mizhm] - Truyen Now.zip",
       "version": 1,
@@ -2974,7 +2974,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "iTruyenChu",
+      "name": "iTruyenChu +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - iTruyenChu/[vBook] - iTruyenChu.zip",
       "version": 16,
@@ -2985,7 +2985,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Ngọc Tiếu Các",
+      "name": "Ngọc Tiếu Các +1",
       "author": "Bin123",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Bin123] - Ngọc Tiếu Các/[Bin123] - Ngọc Tiếu Các.zip",
       "version": 1,
@@ -2996,7 +2996,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tiệm Truyện Chữ",
+      "name": "Tiệm Truyện Chữ +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Tiệm Truyện Chữ/[vBook] - Tiệm Truyện Chữ.zip",
       "version": 2,
@@ -3007,7 +3007,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Net",
+      "name": "Truyện Net +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Truyện Net/[vBook] - Truyện Net.zip",
       "version": 1,
@@ -3018,7 +3018,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Truyện Chữ",
+      "name": "Mê Truyện Chữ +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Mê Truyện Chữ/[vBook] - Mê Truyện Chữ.zip",
       "version": 2,
@@ -3029,7 +3029,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "SS Truyện",
+      "name": "SS Truyện +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - SS Truyện/[vBook] - SS Truyện.zip",
       "version": 3,
@@ -3040,7 +3040,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Kho Đọc Sách",
+      "name": "Kho Đọc Sách +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - Kho Đọc Sách/[vBook] - Kho Đọc Sách.zip",
       "version": 1,
@@ -3051,7 +3051,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "XTruyện",
+      "name": "XTruyện +1",
       "author": "vBook",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[vBook] - XTruyện/[vBook] - XTruyện.zip",
       "version": 2,
@@ -3062,7 +3062,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tiệm Truyện Chữ",
+      "name": "Tiệm Truyện Chữ +1",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Alex] - Tiệm Truyện Chữ/[Alex] - Tiệm Truyện Chữ.zip",
       "version": 3,
@@ -3073,7 +3073,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "WiKiCV",
+      "name": "WiKiCV +1",
       "author": "Alex",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Alex] - WiKiCV/[Alex] - WiKiCV.zip",
       "version": 1,
@@ -3084,7 +3084,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "[APP] Truyện CV",
+      "name": "[APP] Truyện CV +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - [APP] Truyện CV/[kychi] - [APP] Truyện CV.zip",
       "version": 2,
@@ -3095,7 +3095,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Vivu Truyện",
+      "name": "Vivu Truyện +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Vivu Truyện/[kychi] - Vivu Truyện.zip",
       "version": 1,
@@ -3106,7 +3106,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Zumi Novel",
+      "name": "Zumi Novel +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Zumi Novel/[kychi] - Zumi Novel.zip",
       "version": 1,
@@ -3117,7 +3117,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyenTv",
+      "name": "TruyenTv +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - TruyenTv/[kychi] - TruyenTv.zip",
       "version": 2,
@@ -3128,7 +3128,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Mơ",
+      "name": "Truyện Mơ +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Truyện Mơ/[kychi] - Truyện Mơ.zip",
       "version": 1,
@@ -3139,7 +3139,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "nTruyen",
+      "name": "nTruyen +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - nTruyen/[kychi] - nTruyen.zip",
       "version": 9,
@@ -3150,7 +3150,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Mới",
+      "name": "Truyện Mới +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Truyện Mới/[kychi] - Truyện Mới.zip",
       "version": 7,
@@ -3161,7 +3161,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Hoàn",
+      "name": "Truyện Hoàn +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Truyện Hoàn/[kychi] - Truyện Hoàn.zip",
       "version": 9,
@@ -3172,7 +3172,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "QuyKhu",
+      "name": "QuyKhu +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - QuyKhu/[kychi] - QuyKhu.zip",
       "version": 4,
@@ -3183,7 +3183,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Kỳ Huyễn",
+      "name": "Kỳ Huyễn +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Kỳ Huyễn/[kychi] - Kỳ Huyễn.zip",
       "version": 1,
@@ -3194,7 +3194,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Đọc Truyện",
+      "name": "Mê Đọc Truyện +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Mê Đọc Truyện/[kychi] - Mê Đọc Truyện.zip",
       "version": 1,
@@ -3205,7 +3205,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Hướng dẫn sử dụng VBook",
+      "name": "Hướng dẫn sử dụng VBook +1",
       "author": "ngatngay,duongden - repo kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ngatngay,duongden - repo kychi] - Hướng dẫn sử dụng VBook/[ngatngay,duongden - repo kychi] - Hướng dẫn sử dụng VBook.zip",
       "version": 6,
@@ -3216,7 +3216,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Cà Chua Sói Xám",
+      "name": "Cà Chua Sói Xám +1",
       "author": "kychi",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[kychi] - Cà Chua Sói Xám/[kychi] - Cà Chua Sói Xám.zip",
       "version": 3,
@@ -3227,7 +3227,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Hako",
+      "name": "Hako +1",
       "author": "Gold2k2k2k",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Gold2k2k2k] - Hako/[Gold2k2k2k] - Hako.zip",
       "version": 1,
@@ -3238,7 +3238,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Storya",
+      "name": "Storya +1",
       "author": "Gold2k2k2k",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Gold2k2k2k] - Storya/[Gold2k2k2k] - Storya.zip",
       "version": 1,
@@ -3249,7 +3249,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Novel543",
+      "name": "Novel543 +1",
       "author": "Gold2k2k2k",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Gold2k2k2k] - Novel543/[Gold2k2k2k] - Novel543.zip",
       "version": 1,
@@ -3260,7 +3260,7 @@
       "locale": "zh_TW"
     },
     {
-      "name": "LoppyToon",
+      "name": "LoppyToon +1",
       "author": "Gold2k2k2k",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Gold2k2k2k] - LoppyToon/[Gold2k2k2k] - LoppyToon.zip",
       "version": 2,
@@ -3271,7 +3271,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Shinigami LN Team",
+      "name": "Shinigami LN Team +1",
       "author": "Gold2k2k2k",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Gold2k2k2k] - Shinigami LN Team/[Gold2k2k2k] - Shinigami LN Team.zip",
       "version": 1,
@@ -3282,7 +3282,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Shencou",
+      "name": "Shencou +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - Shencou/[Vearn] - Shencou.zip",
       "version": 1,
@@ -3293,7 +3293,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Lnovel",
+      "name": "Lnovel +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - Lnovel/[Vearn] - Lnovel.zip",
       "version": 4,
@@ -3304,7 +3304,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "GG dịch Novel Full",
+      "name": "GG dịch Novel Full +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - GG dịch Novel Full/[Vearn] - GG dịch Novel Full.zip",
       "version": 1,
@@ -3315,7 +3315,7 @@
       "locale": "en_US"
     },
     {
-      "name": "Đồng nhân xã",
+      "name": "Đồng nhân xã +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - Đồng nhân xã/[Vearn] - Đồng nhân xã.zip",
       "version": 4,
@@ -3326,7 +3326,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ilwxs",
+      "name": "ilwxs +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - ilwxs/[Vearn] - ilwxs.zip",
       "version": 1,
@@ -3337,7 +3337,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Đồng nhân tiểu thuyết",
+      "name": "Đồng nhân tiểu thuyết +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - Đồng nhân tiểu thuyết/[Vearn] - Đồng nhân tiểu thuyết.zip",
       "version": 1,
@@ -3348,7 +3348,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Truyện hoàn",
+      "name": "Truyện hoàn +1",
       "author": "Vearn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Vearn] - Truyện hoàn/[Vearn] - Truyện hoàn.zip",
       "version": 1,
@@ -3359,7 +3359,7 @@
       "locale": "vn_VI"
     },
     {
-      "name": "dualeotruyenfull",
+      "name": "dualeotruyenfull +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - dualeotruyenfull/[Meo] - dualeotruyenfull.zip",
       "version": 5,
@@ -3370,7 +3370,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Biquge",
+      "name": "Biquge +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - Biquge/[Meo] - Biquge.zip",
       "version": 9,
@@ -3381,7 +3381,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Storya",
+      "name": "Storya +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - Storya/[Meo] - Storya.zip",
       "version": 2,
@@ -3392,7 +3392,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Wattpad - Tiếng Việt",
+      "name": "Wattpad - Tiếng Việt +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - Wattpad - Tiếng Việt/[Meo] - Wattpad - Tiếng Việt.zip",
       "version": 21,
@@ -3403,7 +3403,7 @@
       "locale": "vi"
     },
     {
-      "name": "MeTruyenChu",
+      "name": "MeTruyenChu +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - MeTruyenChu/[Meo] - MeTruyenChu.zip",
       "version": 17,
@@ -3414,7 +3414,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Bixiange",
+      "name": "Bixiange +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - Bixiange/[Meo] - Bixiange.zip",
       "version": 10,
@@ -3425,7 +3425,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "TruyenChu",
+      "name": "TruyenChu +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - TruyenChu/[Meo] - TruyenChu.zip",
       "version": 8,
@@ -3436,7 +3436,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "WanwanSekai -18+",
+      "name": "WanwanSekai -18+ +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - WanwanSekai -18+/[Meo] - WanwanSekai -18+.zip",
       "version": 9,
@@ -3447,7 +3447,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "ShiBaShuWu -18+",
+      "name": "ShiBaShuWu -18+ +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - ShiBaShuWu -18+/[Meo] - ShiBaShuWu -18+.zip",
       "version": 19,
@@ -3458,7 +3458,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Valvrareteam",
+      "name": "Valvrareteam +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - Valvrareteam/[Meo] - Valvrareteam.zip",
       "version": 10,
@@ -3469,7 +3469,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "NovelCooksTW",
+      "name": "NovelCooksTW +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - NovelCooksTW/[Meo] - NovelCooksTW.zip",
       "version": 9,
@@ -3480,7 +3480,7 @@
       "locale": "zh_TW"
     },
     {
-      "name": "TrichTinhLau",
+      "name": "TrichTinhLau +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - TrichTinhLau/[Meo] - TrichTinhLau.zip",
       "version": 8,
@@ -3491,7 +3491,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "LN Kuro",
+      "name": "LN Kuro +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - LN Kuro/[Meo] - LN Kuro.zip",
       "version": 16,
@@ -3502,7 +3502,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MeTruyenSangTac",
+      "name": "MeTruyenSangTac +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - MeTruyenSangTac/[Meo] - MeTruyenSangTac.zip",
       "version": 5,
@@ -3513,7 +3513,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "LoppyToon -18+",
+      "name": "LoppyToon -18+ +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - LoppyToon -18+/[Meo] - LoppyToon -18+.zip",
       "version": 18,
@@ -3524,7 +3524,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Foxaholic 18",
+      "name": "Foxaholic 18 +1",
       "author": "Meo",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Meo] - Foxaholic 18/[Meo] - Foxaholic 18.zip",
       "version": 1,
@@ -3535,7 +3535,7 @@
       "locale": "en_US"
     },
     {
-      "name": "Mê truyện CV.xyz",
+      "name": "Mê truyện CV.xyz +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Mê truyện CV.xyz/[HieuDM] - Mê truyện CV.xyz.zip",
       "version": 1,
@@ -3546,7 +3546,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mộng Truyện",
+      "name": "Mộng Truyện +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Mộng Truyện/[HieuDM] - Mộng Truyện.zip",
       "version": 2,
@@ -3557,7 +3557,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "SsTruyen",
+      "name": "SsTruyen +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - SsTruyen/[HieuDM] - SsTruyen.zip",
       "version": 1,
@@ -3568,7 +3568,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Mới",
+      "name": "Truyện Mới +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Truyện Mới/[HieuDM] - Truyện Mới.zip",
       "version": 2,
@@ -3579,7 +3579,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Đọc Việt",
+      "name": "Truyện Đọc Việt +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Truyện Đọc Việt/[HieuDM] - Truyện Đọc Việt.zip",
       "version": 3,
@@ -3590,7 +3590,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê truyện chữ chấm CO",
+      "name": "Mê truyện chữ chấm CO +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Mê truyện chữ chấm CO/[HieuDM] - Mê truyện chữ chấm CO.zip",
       "version": 2,
@@ -3601,7 +3601,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Novest",
+      "name": "Novest +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Novest/[HieuDM] - Novest.zip",
       "version": 1,
@@ -3612,7 +3612,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Si Truyện CV",
+      "name": "Si Truyện CV +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Si Truyện CV/[HieuDM] - Si Truyện CV.zip",
       "version": 2,
@@ -3623,7 +3623,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Inkitt",
+      "name": "Inkitt +1",
       "author": "HieuDM",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[HieuDM] - Inkitt/[HieuDM] - Inkitt.zip",
       "version": 1,
@@ -3634,7 +3634,7 @@
       "locale": "en_US"
     },
     {
-      "name": "ddxs",
+      "name": "ddxs +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - ddxs/[bqy] - ddxs.zip",
       "version": 1,
@@ -3645,7 +3645,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "STV Home",
+      "name": "STV Home +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - STV Home/[bqy] - STV Home.zip",
       "version": 2,
@@ -3656,7 +3656,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "STV",
+      "name": "STV +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - STV/[bqy] - STV.zip",
       "version": 2,
@@ -3667,7 +3667,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Yushubo",
+      "name": "Yushubo +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - Yushubo/[bqy] - Yushubo.zip",
       "version": 2,
@@ -3678,7 +3678,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "twfanti",
+      "name": "twfanti +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - twfanti/[bqy] - twfanti.zip",
       "version": 1,
@@ -3689,7 +3689,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "121du",
+      "name": "121du +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - 121du/[bqy] - 121du.zip",
       "version": 1,
@@ -3700,7 +3700,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Yousuu",
+      "name": "Yousuu +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - Yousuu/[bqy] - Yousuu.zip",
       "version": 1,
@@ -3711,7 +3711,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "qidian home",
+      "name": "qidian home +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - qidian home/[bqy] - qidian home.zip",
       "version": 1,
@@ -3722,7 +3722,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Biququ",
+      "name": "Biququ +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - Biququ/[bqy] - Biququ.zip",
       "version": 1,
@@ -3733,7 +3733,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "qiuxiaoshuo",
+      "name": "qiuxiaoshuo +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - qiuxiaoshuo/[bqy] - qiuxiaoshuo.zip",
       "version": 1,
@@ -3744,7 +3744,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "szyangxiao",
+      "name": "szyangxiao +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - szyangxiao/[bqy] - szyangxiao.zip",
       "version": 1,
@@ -3755,7 +3755,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "69shu",
+      "name": "69shu +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - 69shu/[bqy] - 69shu.zip",
       "version": 1,
@@ -3766,7 +3766,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "ttkan",
+      "name": "ttkan +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - ttkan/[bqy] - ttkan.zip",
       "version": 1,
@@ -3777,7 +3777,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "FQWEB",
+      "name": "FQWEB +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - FQWEB/[bqy] - FQWEB.zip",
       "version": 1,
@@ -3788,7 +3788,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "UAA",
+      "name": "UAA +1",
       "author": "bqy",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bqy] - UAA/[bqy] - UAA.zip",
       "version": 1,
@@ -3799,7 +3799,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Hiệp Nữ",
+      "name": "Hiệp Nữ +1",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bexom] - Hiệp Nữ/[bexom] - Hiệp Nữ.zip",
       "version": 2,
@@ -3810,7 +3810,7 @@
       "locale": "vi"
     },
     {
-      "name": "520danmei",
+      "name": "520danmei +1",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bexom] - 520danmei/[bexom] - 520danmei.zip",
       "version": 1,
@@ -3821,7 +3821,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "Xbanxia",
+      "name": "Xbanxia +1",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bexom] - Xbanxia/[bexom] - Xbanxia.zip",
       "version": 1,
@@ -3832,7 +3832,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "uuxs",
+      "name": "uuxs +1",
       "author": "bexom",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[bexom] - uuxs/[bexom] - uuxs.zip",
       "version": 1,
@@ -3843,7 +3843,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "FQWeb Universal (vBook beta)",
+      "name": "FQWeb Universal (vBook beta) +1",
       "author": "Chanhnh",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Chanhnh] - FQWeb Universal (vBook beta)/[Chanhnh] - FQWeb Universal (vBook beta).zip",
       "version": 3,
@@ -3854,7 +3854,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Wattpad ver dịch",
+      "name": "Wattpad ver dịch +1",
       "author": "AleshaOnOn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[AleshaOnOn] - Wattpad ver dịch/[AleshaOnOn] - Wattpad ver dịch.zip",
       "version": 1,
@@ -3865,7 +3865,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Cijige",
+      "name": "Cijige +1",
       "author": "AleshaOnOn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[AleshaOnOn] - Cijige/[AleshaOnOn] - Cijige.zip",
       "version": 1,
@@ -3876,7 +3876,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Yyun",
+      "name": "Yyun +1",
       "author": "AleshaOnOn",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[AleshaOnOn] - Yyun/[AleshaOnOn] - Yyun.zip",
       "version": 2,
@@ -3887,7 +3887,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "truyenhoangdung",
+      "name": "truyenhoangdung +1",
       "author": "Tam Chau",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Tam Chau] - truyenhoangdung/[Tam Chau] - truyenhoangdung.zip",
       "version": 3,
@@ -3898,7 +3898,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Truyện CV",
+      "name": "Mê Truyện CV +1",
       "author": "springpeachvinh",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[springpeachvinh] - Mê Truyện CV/[springpeachvinh] - Mê Truyện CV.zip",
       "version": 3,
@@ -3909,7 +3909,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Đọc Truyện",
+      "name": "Mê Đọc Truyện +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Mê Đọc Truyện/[ivanzzz] - Mê Đọc Truyện.zip",
       "version": 3,
@@ -3920,7 +3920,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "AliceSW",
+      "name": "AliceSW +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - AliceSW/[ivanzzz] - AliceSW.zip",
       "version": 6,
@@ -3931,7 +3931,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "bFaloo (飞卢小说)",
+      "name": "bFaloo (飞卢小说) +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - bFaloo (飞卢小说)/[ivanzzz] - bFaloo (飞卢小说).zip",
       "version": 3,
@@ -3942,7 +3942,7 @@
       "locale": "zh-CN"
     },
     {
-      "name": "17 Tiểu thuyết",
+      "name": "17 Tiểu thuyết +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - 17 Tiểu thuyết/[ivanzzz] - 17 Tiểu thuyết.zip",
       "version": 5,
@@ -3953,7 +3953,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "AllNovel",
+      "name": "AllNovel +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - AllNovel/[ivanzzz] - AllNovel.zip",
       "version": 1,
@@ -3964,7 +3964,7 @@
       "locale": "en_US"
     },
     {
-      "name": "FanMTL",
+      "name": "FanMTL +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - FanMTL/[ivanzzz] - FanMTL.zip",
       "version": 1,
@@ -3975,7 +3975,7 @@
       "locale": "en_US"
     },
     {
-      "name": "Matt Reading Translations",
+      "name": "Matt Reading Translations +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Matt Reading Translations/[ivanzzz] - Matt Reading Translations.zip",
       "version": 1,
@@ -3986,7 +3986,7 @@
       "locale": "en_US"
     },
     {
-      "name": "NovelFull",
+      "name": "NovelFull +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - NovelFull/[ivanzzz] - NovelFull.zip",
       "version": 1,
@@ -3997,7 +3997,7 @@
       "locale": "en_US"
     },
     {
-      "name": "NovelNext",
+      "name": "NovelNext +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - NovelNext/[ivanzzz] - NovelNext.zip",
       "version": 1,
@@ -4008,7 +4008,7 @@
       "locale": "en_US"
     },
     {
-      "name": "AkayTruyen",
+      "name": "AkayTruyen +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - AkayTruyen/[ivanzzz] - AkayTruyen.zip",
       "version": 3,
@@ -4019,7 +4019,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Bàn Long",
+      "name": "Bàn Long +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Bàn Long/[ivanzzz] - Bàn Long.zip",
       "version": 2,
@@ -4030,7 +4030,7 @@
       "locale": "vi-VN"
     },
     {
-      "name": "Hang Truyện Chữ",
+      "name": "Hang Truyện Chữ +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Hang Truyện Chữ/[ivanzzz] - Hang Truyện Chữ.zip",
       "version": 2,
@@ -4041,7 +4041,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Kho Truyện Chữ",
+      "name": "Kho Truyện Chữ +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Kho Truyện Chữ/[ivanzzz] - Kho Truyện Chữ.zip",
       "version": 2,
@@ -4052,7 +4052,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Kho Truyá»‡n Chá»¯",
+      "name": "Kho Truyá»‡n Chá»¯ +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Kho Truyá»‡n Chá»¯/[ivanzzz] - Kho Truyá»‡n Chá»¯.zip",
       "version": 1,
@@ -4063,7 +4063,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "La Cà Truyện",
+      "name": "La Cà Truyện +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - La Cà Truyện/[ivanzzz] - La Cà Truyện.zip",
       "version": 5,
@@ -4074,7 +4074,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "LN Kuro",
+      "name": "LN Kuro +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - LN Kuro/[ivanzzz] - LN Kuro.zip",
       "version": 8,
@@ -4085,7 +4085,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Truyện Chữ .com",
+      "name": "Mê Truyện Chữ .com +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Mê Truyện Chữ .com/[ivanzzz] - Mê Truyện Chữ .com.zip",
       "version": 5,
@@ -4096,7 +4096,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Truyện Chữ .co",
+      "name": "Mê Truyện Chữ .co +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Mê Truyện Chữ .co/[ivanzzz] - Mê Truyện Chữ .co.zip",
       "version": 3,
@@ -4107,7 +4107,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "MeTruyenCV",
+      "name": "MeTruyenCV +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - MeTruyenCV/[ivanzzz] - MeTruyenCV.zip",
       "version": 4,
@@ -4118,7 +4118,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Mê Truyện CV",
+      "name": "Mê Truyện CV +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Mê Truyện CV/[ivanzzz] - Mê Truyện CV.zip",
       "version": 2,
@@ -4129,7 +4129,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "QuyKiep",
+      "name": "QuyKiep +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - QuyKiep/[ivanzzz] - QuyKiep.zip",
       "version": 3,
@@ -4140,7 +4140,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Si Truyện CV",
+      "name": "Si Truyện CV +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Si Truyện CV/[ivanzzz] - Si Truyện CV.zip",
       "version": 1,
@@ -4151,7 +4151,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tiệm Truyện Chữ",
+      "name": "Tiệm Truyện Chữ +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Tiệm Truyện Chữ/[ivanzzz] - Tiệm Truyện Chữ.zip",
       "version": 5,
@@ -4162,7 +4162,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Tàng Thư Viện",
+      "name": "Tàng Thư Viện +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Tàng Thư Viện/[ivanzzz] - Tàng Thư Viện.zip",
       "version": 2,
@@ -4173,7 +4173,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Chữ Hay",
+      "name": "Truyện Chữ Hay +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Truyện Chữ Hay/[ivanzzz] - Truyện Chữ Hay.zip",
       "version": 2,
@@ -4184,7 +4184,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyenDich.AI",
+      "name": "TruyenDich.AI +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - TruyenDich.AI/[ivanzzz] - TruyenDich.AI.zip",
       "version": 1,
@@ -4195,7 +4195,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Dịch Miễn Phí",
+      "name": "Truyện Dịch Miễn Phí +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Truyện Dịch Miễn Phí/[ivanzzz] - Truyện Dịch Miễn Phí.zip",
       "version": 3,
@@ -4206,7 +4206,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Full",
+      "name": "Truyện Full +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Truyện Full/[ivanzzz] - Truyện Full.zip",
       "version": 3,
@@ -4217,7 +4217,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyen Hoan",
+      "name": "Truyen Hoan +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Truyen Hoan/[ivanzzz] - Truyen Hoan.zip",
       "version": 3,
@@ -4228,7 +4228,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Mới KK",
+      "name": "Truyện Mới KK +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Truyện Mới KK/[ivanzzz] - Truyện Mới KK.zip",
       "version": 3,
@@ -4239,7 +4239,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Truyện Net",
+      "name": "Truyện Net +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Truyện Net/[ivanzzz] - Truyện Net.zip",
       "version": 2,
@@ -4250,7 +4250,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Valvrareteam",
+      "name": "Valvrareteam +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Valvrareteam/[ivanzzz] - Valvrareteam.zip",
       "version": 1,
@@ -4261,7 +4261,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Việt Nam Thư Quán",
+      "name": "Việt Nam Thư Quán +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Việt Nam Thư Quán/[ivanzzz] - Việt Nam Thư Quán.zip",
       "version": 1,
@@ -4272,7 +4272,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Wattpad",
+      "name": "Wattpad +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Wattpad/[ivanzzz] - Wattpad.zip",
       "version": 3,
@@ -4283,7 +4283,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Wiki Dịch",
+      "name": "Wiki Dịch +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Wiki Dịch/[ivanzzz] - Wiki Dịch.zip",
       "version": 4,
@@ -4294,7 +4294,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Xa Lộ Sách",
+      "name": "Xa Lộ Sách +1",
       "author": "ivanzzz",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[ivanzzz] - Xa Lộ Sách/[ivanzzz] - Xa Lộ Sách.zip",
       "version": 3,
@@ -4305,7 +4305,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Storya",
+      "name": "Storya +1",
       "author": "Klein",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Klein] - Storya/[Klein] - Storya.zip",
       "version": 2,
@@ -4316,7 +4316,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Sáng Tác Việt Pro",
+      "name": "Sáng Tác Việt Pro +1",
       "author": "Klein",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[Klein] - Sáng Tác Việt Pro/[Klein] - Sáng Tác Việt Pro.zip",
       "version": 16,
@@ -4327,7 +4327,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Hong Tra Team",
+      "name": "Hong Tra Team +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - Hong Tra Team/[madokalb112] - Hong Tra Team.zip",
       "version": 5,
@@ -4338,7 +4338,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Stellar Stories",
+      "name": "Stellar Stories +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - Stellar Stories/[madokalb112] - Stellar Stories.zip",
       "version": 1,
@@ -4349,7 +4349,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "TruyenYY",
+      "name": "TruyenYY +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - TruyenYY/[madokalb112] - TruyenYY.zip",
       "version": 2,
@@ -4360,7 +4360,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "WikiDich",
+      "name": "WikiDich +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - WikiDich/[madokalb112] - WikiDich.zip",
       "version": 1,
@@ -4371,7 +4371,7 @@
       "locale": "vi_VN"
     },
     {
-      "name": "Foxaholic",
+      "name": "Foxaholic +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - Foxaholic/[madokalb112] - Foxaholic.zip",
       "version": 3,
@@ -4382,7 +4382,7 @@
       "locale": "en_US"
     },
     {
-      "name": "80QiShu",
+      "name": "80QiShu +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - 80QiShu/[madokalb112] - 80QiShu.zip",
       "version": 4,
@@ -4393,7 +4393,7 @@
       "locale": "zh_CN"
     },
     {
-      "name": "Chuangshi QQ",
+      "name": "Chuangshi QQ +1",
       "author": "madokalb112",
       "path": "https://raw.githubusercontent.com/Laodai123/vbook-plugins-collection/main/[madokalb112] - Chuangshi QQ/[madokalb112] - Chuangshi QQ.zip",
       "version": 2,
